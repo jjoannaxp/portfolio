@@ -1,0 +1,404 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Descent</title>
+    <link rel="stylesheet" type="text/css" href="overall.css" />
+    <link rel="stylesheet" type="text/css" href="descent.css" />
+  </head>
+  <body>
+    <div id="hero">
+      <div id="nav">
+        <div id="navcontents">
+          <div class="b1" id="work">
+            <a class="nav-deactivated" href="index.html">work</a>
+          </div>
+          <div class="b1" id="playground">
+            <a class="nav-deactivated" href="playground.html">playground</a>
+          </div>
+          <div class="b1" id="about">
+            <a class="nav-deactivated" href="about.html">about</a>
+          </div>
+        </div>
+      </div>
+      <div id="hero-container">
+        <div id="content">
+          <div class="h1">Split</div>
+          <div class="h5">The app that makes dividing expenses easy.</div>
+          <div class="project-tags">
+            <div class="project-type">
+              <div class="b1">personal project</div>
+            </div>
+            <div class="project-tag"><div class="b1">app design</div></div>
+            <div class="project-tag">
+              <div class="b1">role: UI/UX designer and researcher</div>
+            </div>
+            <div class="project-tag">
+              <div class="b1">timeline: 9/23-10/23</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="case-study">
+        <div class="section">
+          <div class="section-start">
+            <div class="h5">PROBLEM</div>
+            <div class="h2">Living with roommates is hard.</div>
+          </div>
+          <div class="side">
+            <div id="flex-section">
+              <div class="b1">
+                As someone who just started living in a roommate situation where
+                we actually have to cook, buy groceries, household supplies, and
+                other things that we need to split with my roommates, tracking
+                expenses is really hard, especially in large roommate groups. We
+                tried everything – requesting money on payment apps, only buying
+                food for ourselves, and even this giant spreadsheet for each
+                individual item we bought split amongst all 6 roommates, with
+                little comprehension of who we actually had to pay. 
+              </div>
+              <br />
+              <div class="b1">
+                But eventually, all methods fell through. Requesting money was
+                too hard to keep track of for every tiny item, and keeping items
+                amongst ourselves led to too much food in the fridge and often,
+                the food ended up rotting anyways due to a slower pace of use.
+              </div>
+            </div>
+            <img src="split-expenses.png" id="split-expenses" />
+          </div>
+          <div class="h3">
+            I knew there had to be a better way of splitting our expenses… so I
+            designed it!
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-start">
+            <div class="h5">Solution</div>
+            <div class="h3" id="main-statement">
+              Split is a financial management tool that simplifies
+              expense-sharing among groups so that users can easily divide
+              costs, track contributions, and maintain financial transparency.
+            </div>
+          </div>
+          <div id="makegroup" class="feature">
+            <div class="h5">First, make a roommate group.</div>
+            <img src="split gifs/makegroup.gif" />
+          </div>
+          <div id="expenses" class="feature">
+            <div class="h5">Then, add your expenses.</div>
+            <div class="b1">
+              Expenses can be either general (rent, furniture, etc.) or itemized
+              (groceries, meals, etc.).
+            </div>
+            <div class="side-feature">
+              <div class="feature">
+                <img src="split gifs/general.gif" />
+                <div class="b2">
+                  For general expenses, you can edit who paid for it, as well as
+                  how to split it. You can either split it by number (specific
+                  amount), percentage, or share. You can also make the expense
+                  repeat, which could be useful for expenses like rent and
+                  utilities.
+                </div>
+              </div>
+              <div class="feature">
+                <img src="split gifs/itemized.gif" />
+                <div class="b2">
+                  For itemized expenses, you can just scan your receipt to fill
+                  out all your items, simplifying your process! Split will
+                  automatically split the tax and tip based on how much each
+                  individual paid. You can assign each item per person by
+                  clicking on the profile picture next to each item.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side-feature">
+            <div id="inside-group" class="feature">
+              <div class="h5">See how the expenses are split!</div>
+              <div class="b1">
+                Costs will be updated in your roommate’s balances as well as in
+                the roommate's history. Looking through your balances, you can
+                also see the balance breakdown, remind your group mate to pay
+                you back, and pay back all your debt at once!
+              </div>
+              <img src="split gifs/inside-group.gif" />
+            </div>
+            <div id="notifications" class="feature">
+              <div class="h5">Be notified of important events.</div>
+              <div class="b1">
+                When you remind your group mate, it shows up in their
+                notifications, along with other notifications for when someone
+                pays them back and when someone pays for them. 
+              </div>
+              <img src="split gifs/notification.gif" />
+            </div>
+          </div>
+          <div class="side-feature">
+            <div id="inside-group" class="feature">
+              <div class="h5">See all your friends’ balances.</div>
+              <div class="b1">
+                In your friends tab, you can see an overview of all your friends
+                cross-groups and how much you owe them/they owe you overall.
+              </div>
+              <img src="split gifs/friends.gif" />
+            </div>
+            <div id="notifications" class="feature">
+              <div class="h5">See your own history!</div>
+              <div class="b1">
+                In your profile tab, you can see your previous transactions as
+                well as your total balance.
+              </div>
+              <img src="split gifs/profile.gif" />
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-start">
+            <div class="h5">PROCESS</div>
+            <div class="h2">
+              First, I had to figure out who I was designing for, so I made user
+              personas.
+            </div>
+          </div>
+          <div class="b1">
+            I knew that the main problem I wanted to solve was the ease of
+            splitting expenses, so I had to ideate on what scenarios would
+            involve that need. My initial user was the roommate, someone who was
+            rooming within a group and needed to split their expenses, but I
+            soon realized that splitting expenses expands past just roommate
+            groups.
+          </div>
+          <div>The personas I developed are as follows:</div>
+          <div id="personas">
+            <div class="persona">
+              <div class="h3">The Roommate</div>
+              <div class="label">
+                <div class="b2"><b>Age: </b>21</div>
+              </div>
+              <div class="label">
+                <div class="b2"><b>Occupation: </b>Student Worker</div>
+              </div>
+              <div class="label">
+                <div class="b2">
+                  <b>Story:</b> Rachel lives in an apartment with 3 other
+                  roommates. They split the groceries by who uses what and rent,
+                  utilities, and supplies equally.
+                </div>
+              </div>
+              <div>
+                <b class="b2-bold">Needs:</b>
+                <ul>
+                  <li class="b2">
+                    Easy and efficient way to divide bills and expenses among
+                    roommates.
+                  </li>
+                  <li class="b2">
+                    Quick notifications and reminders for upcoming bills.
+                  </li>
+                  <li class="b2">
+                    Track expenses over time to ensure everyone pays their fair
+                    share.
+                  </li>
+                  <li class="b2">
+                    Ability to settle debts securely and seamlessly.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <div class="persona">
+              <div class="h3">The Friends</div>
+              <div class="label">
+                <div class="b2"><b>Age: </b>29, Friends: 26-30</div>
+              </div>
+              <div class="label">
+                <div class="b2"><b>Occupation: </b>Teacher</div>
+              </div>
+              <div class="label">
+                <div class="b2">
+                  <b>Story:</b> Sarah and her friends often hang out, go to
+                  concerts, dine out, or plan group events. They frequently
+                  share expenses for tickets, meals, and transportation.
+                </div>
+              </div>
+              <div>
+                <b class="b2-bold">Needs:</b>
+                <ul>
+                  <li class="b2">
+                    Easily split the cost of group activities and events.
+                  </li>
+                  <li class="b2">
+                    Keep a record of who paid for what within the friend group.
+                  </li>
+                  <li class="b2">
+                    Settle debts after each event or on a regular basis.
+                  </li>
+                  <li class="b2">
+                    Ensure fairness and transparency in financial transactions
+                    among friends.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <div class="persona">
+              <div class="h3">The Vacationer</div>
+              <div class="label">
+                <div class="b2"><b>Age: </b>26</div>
+              </div>
+              <div class="label">
+                <div class="b2"><b>Occupation: </b>Software Engineer</div>
+              </div>
+              <div class="label">
+                <div class="b2">
+                  <b>Story:</b> David loves traveling with friends. He
+                  frequently plans group trips to various destinations, and they
+                  share expenses like accommodation, meals, and activities.
+                </div>
+              </div>
+              <div>
+                <b class="b2-bold">Needs:</b>
+                <ul>
+                  <li class="b2">
+                    Splitting expenses with friends during trips in real-time.
+                  </li>
+                  <li class="b2">
+                    Keeping track of who has paid for what and ensuring everyone
+                    settles their part.
+                  </li>
+                  <li class="b2">
+                    Conveniently record expenses and divide costs evenly among
+                    the group.
+                  </li>
+                  <li class="b2">
+                    Simplify the reimbursement process when friends owe him
+                    money for trip expenses.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="h2">
+            After User Personas, I made the overall site map – how will the user
+            move through the app?
+          </div>
+          <img src="split gifs/site.png" />
+        </div>
+        <div class="section">
+          <div class="h2">
+            From there, I moved onto low-fidelity wireframes.
+          </div>
+          <div class="b1">
+            I made basic flows based off of the site map, experimenting with
+            different layouts and ways of communicating information. My flows
+            were minimal with focus on only the actual flows. 
+          </div>
+          <img src="split gifs/lowfi1.png" />
+          <img src="split gifs/lowfi2.png" />
+        </div>
+        <div class="section">
+          <div class="h2">And from there, the visual design.</div>
+          <div class="b1">
+            I wanted to make the theme “banana split”, but without making it too
+            out there, as the app is still surrounding money, which is more of a
+            serious topic. I wanted to have the color palette and logo subtly
+            reflect the theme, while still maintaining a sense of
+            professionalism. I debated between having a curved vs sharp visual
+            identity, with my low-fis being more curved, but I ultimately ended
+            on a sharper identity to embody a more serious visual identity.
+          </div>
+          <img src="split gifs/style-guide.png" />
+        </div>
+        <div class="section">
+          <div class="h2">
+            And finally, high fidelities, based off of feedback.
+          </div>
+          <div class="b1">
+            I was able to get from 10 individuals that fit into the user
+            personas I had previously created. The main problems included:
+          </div>
+          <ol>
+            <li>Clarity with the change in numbers – what do those mean?</li>
+            <li>
+              Showing more of the history – I want to have more transparency
+              with the numbers!
+            </li>
+            <li>
+              Splitting individual items is a bit confusing – how do I assign
+              items to individuals?
+            </li>
+          </ol>
+          <div class="b1">
+            After getting feedback, I changed the flows to be more user
+            friendly, and applied the previously curated visual design to the
+            app.
+          </div>
+          <img src="split gifs/hifi.png" />
+        </div>
+        <div class="section">
+          <div class="section-start">
+            <div class="h5">Takeaways</div>
+          </div>
+          <div class="h2">Be open-minded.</div>
+          <div class="b1">
+            I had an idea of what I wanted from the beginning, but my end result
+            ended up being completely different from what I had imagined it to
+            be when I started, and that’s usually the case. A lot of the
+            feedback that I had gotten from potential users changed major parts
+            of the flow, and rather than ignoring it in favor of my initial
+            plans, it was vital for me to reflect and iterate. This is how
+            things get better, and how I can improve my designs!
+          </div>
+          <div class="h2">Think from the product side.</div>
+          <div class="b1">
+            As a designer, its easy to get caught up in being perfect with the
+            smaller things, but it’s also very important to think about a
+            product’s feasibility, and design with the product goal in mind.
+            While the details are still important, it’s essential to think about
+            design strategy, and how design can benefit the business overall.
+          </div>
+        </div>
+        <div id="buttons">
+          <div onclick="topFunction()" class="button" id="topbutton">
+            Back to Top
+          </div>
+          <script>
+            let topbutton = document.getElementById("topbutton");
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+          </script>
+  
+          <a href="descent.html"><div class="button" id="nextbutton">Next Project</div></a>
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="footer">
+      <div id="footercontent">
+        <div id="footerleft">
+          <a href="mailto: jhpoon@usc.edu" id="email"
+            ><div class="b2">jhpoon@usc.edu</div></a
+          >
+          <a href="Joanna Poon Resume.pdf" id="resume"
+            ><div class="b2">resume</div></a
+          >
+        </div>
+        <div id="footerright">
+          <a href="index.html" id="email"><div class="b2">home</div></a>
+          <a href="playground.html" id="email"
+            ><div class="b2">playground</div></a
+          >
+          <a href="about.html" id="email"><div class="b2">about</div></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

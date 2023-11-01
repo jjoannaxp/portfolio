@@ -1,0 +1,32 @@
+#container{
+    background-color: #0B0001;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+
+#projects{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    gap: 54px;
+    justify-content:center;
+
+}
+
+img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+
+a{
+    width:39%;
+    height: 65vh;
+    overflow:hidden;
+}
+
+#container .h1{
+    color:#F6F7EC;
+}
