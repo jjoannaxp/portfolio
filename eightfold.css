@@ -1,0 +1,92 @@
+#hero{
+    background-color: #0B0001;
+    width:100%;
+    height: 70vh;
+    min-height: 700px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#hero-container{
+    height:100%;
+    width:100%;
+    background: linear-gradient(0deg, var(--gradient, rgba(0, 0, 0, 0.70)) 0%, var(--gradient, rgba(0, 0, 0, 0.29)) 100%), url(eightfold.png), lightgray 50% / cover no-repeat;
+    background-position:50%;
+    background-size: 100%;
+    position:relative;
+    
+}
+#content{
+    color: #F6F7EC;
+    display:flex;
+    flex-direction:column;
+    gap: 16px;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    width:100%;
+
+    bottom: 54px;
+    margin:auto;
+}
+.project-type{
+    color:#314739;
+    border:#314739 solid 1px;
+
+}
+.project-tag{
+    color:#F6F7EC;
+    border:#F6F7EC solid 1px;
+
+}
+
+#split-expenses{
+    width:50%;
+}
+
+.side{
+    display:flex;
+    flex-direction:row;
+    gap:24px;
+}
+
+#main-statement{
+    color: #6A8B5F;
+    padding: 34px;
+    border:#314739 1px solid;
+    border-radius: 20px;
+}
+
+.feature{
+    display:flex;
+    flex-direction:column;
+    gap:34px;
+    width:100%;
+}
+
+.feature img{
+    width:20vw;
+    border-radius: 40px;
+}
+
+.side-feature{
+    display:flex;
+    flex-direction:row;
+    gap:80px;
+}
+
+#buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#topbutton{
+    background-color: #F6F7EC;
+    color:#314739;
+    border-color:#314739;
+}
+#nextbutton{
+    
+}
