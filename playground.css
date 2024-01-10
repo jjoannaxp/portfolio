@@ -7,13 +7,42 @@
 
 #projects{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width:100%;
-    gap: 54px;
-    justify-content:center;
-
+    
 }
+
+a{
+   
+    overflow:hidden;
+}
+
+@media (max-width: 767px) {
+    #projects{
+        flex-direction:column;
+        flex-wrap:nowrap;
+        align-items:center;
+        gap: 54px;
+    }
+    a{
+        width: 80%;
+        height:auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #projects{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 54px;
+        justify-content:center;
+
+    }
+    a{
+        width:39%;
+        height: 65vh;
+    }
+  }
+  
 
 img{
     height:100%;
@@ -21,11 +50,6 @@ img{
     object-fit: contain;
 }
 
-a{
-    width:39%;
-    height: 65vh;
-    overflow:hidden;
-}
 
 #container .h1{
     color:#F6F7EC;
