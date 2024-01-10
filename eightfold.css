@@ -90,3 +90,14 @@
 #nextbutton{
     
 }
+
+
+#socials{
+    display:flex;
+    flex-direction: row;
+    gap:0px;
+}
+
+#socials div a img {
+    width: 50px;
+}
