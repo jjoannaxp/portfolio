@@ -1,7 +1,7 @@
 import React from 'react';
 import './Work.css';
-import Link from '../Components/Link/Link.js';
-import Project from '../Components/Project/Project.js';
+import Link from './Components/Link/Link.js';
+import Project from './Components/Project/Project.js';
 
 
 
