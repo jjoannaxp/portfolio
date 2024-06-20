@@ -2,12 +2,12 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Work from './Work';
-import About from './About';
-import WhatNot from './Cases/WhatNot';
-import Measured from './Cases/Measured';
-import Eightfold from './Cases/Eightfold';
-import Tinker from './Cases/Tinker';
+import Work from './Pages/Work';
+import About from './Pages/About';
+import WhatNot from './Pages/Cases/WhatNot';
+import Measured from './Pages/Cases/Measured';
+import Eightfold from './Pages/Cases/Eightfold';
+import Tinker from './Pages/Cases/Tinker';
 // import Split from './Pages/Cases/Split';
 
 import { useEffect } from 'react';
