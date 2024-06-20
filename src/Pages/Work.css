@@ -1,0 +1,70 @@
+@import url('../Variables.css');
+
+
+.Container h1{
+    color: var(--Brown);
+}
+
+h1 span{
+    font-family: 'PP Editorial New Italic', sans-serif;
+}
+
+.Container{
+    width: 60%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 160px;
+    margin:auto;
+}
+.Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    margin-top: 104px;
+}
+
+h4 span{
+    color: var(--Red);
+}
+.Hero h4{
+    text-align:left;
+    color: var(--Brown);
+}
+
+.ExperienceContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.ExperienceButtons{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.WorkContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 108px;
+    width:100%;
+}
+
+@media (max-width: 576px) {
+    .ExperienceContainer{
+        flex-direction: column;
+        align-items: start;
+    }
+    .Container{
+        width:100%;
+        padding: 0px 32px;
+    }
+}
+

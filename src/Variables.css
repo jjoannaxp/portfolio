@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap');
+
+
+@font-face {
+    font-family: 'PP Editorial New UltraLight';
+    src: url('./Fonts/PPEditorialNew-Ultralight.eot'); /* IE9 Compat Modes */
+    src: url('./Fonts/PPEditorialNew-Ultralight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./Fonts/PPEditorialNew-Ultralight.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./Fonts/PPEditorialNew-Ultralight.woff') format('woff'), /* Modern Browsers */
+         url('./Fonts/PPEditorialNew-Ultralight.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./Fonts/PPEditorialNew-Ultralight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('./Fonts/PPEditorialNew-Regular.eot'); /* IE9 Compat Modes */
+    src: url('./Fonts/PPEditorialNew-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./Fonts/PPEditorialNew-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./Fonts/PPEditorialNew-Regular.woff') format('woff'), /* Modern Browsers */
+         url('./Fonts/PPEditorialNew-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./Fonts/PPEditorialNew-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PP Editorial New Bold Italic';
+    src: url('./Fonts/PPEditorialNew-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('./Fonts/PPEditorialNew-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./Fonts/PPEditorialNew-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./Fonts/PPEditorialNew-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('./Fonts/PPEditorialNew-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./Fonts/PPEditorialNew-BoldItalic.otf') format('opentype');
+    font-weight: normal;
+    line-height: normal;
+}
+@font-face {
+    font-family: 'PP Editorial New Italic';
+    src: url('./Fonts/PPEditorialNew-Italic.eot'); /* IE9 Compat Modes */
+    src: url('./Fonts/PPEditorialNew-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./Fonts/PPEditorialNew-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./Fonts/PPEditorialNew-Italic.woff') format('woff'), /* Modern Browsers */
+         url('./Fonts/PPEditorialNew-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./Fonts/PPEditorialNew-Italic.otf') format('opentype');
+    font-weight: normal;
+    line-height: normal;
+}
+
+:root {
+    --Cream: #f6f2e9;
+    --Brown: #4A0A0A;
+    --Red: #DF0000;
+
+    --Red-50: rgba(223, 0, 0, 0.05);
+    --Red-100: rgba(223, 0, 0, 0.1);
+    --Red-200: rgba(223, 0, 0, 0.2);
+    --Red-300: rgba(223, 0, 0, 0.3);
+    --Red-400: rgba(223, 0, 0, 0.4);
+    --Red-500: rgba(223, 0, 0, 0.5);
+    --Red-600: rgba(223, 0, 0, 0.6);
+    --Red-700: rgba(223, 0, 0, 0.7);
+    
+
+    --Black: #000000;
+    --Black-30:rgba(0, 0, 0, 0.05);
+
+    --Black-100:rgba(0, 0, 0, 0.10);
+    --Black-200:rgba(0, 0, 0, 0.20);
+    --Black-300:rgba(0, 0, 0, 0.30);
+    --Black-400:rgba(0, 0, 0, 0.40);
+    --Black-500:rgba(0, 0, 0, 0.50);
+    --Black-600:rgba(0, 0, 0, 0.60);
+    --Black-700:rgba(0, 0, 0, 0.70);
+
+    --White: #FFFFFF;
+    --White-100: rgba(255, 255, 255, 0.10);
+    --White-200: rgba(255, 255, 255, 0.20);
+    --White-300: rgba(255, 255, 255, 0.30);
+    --White-400: rgba(255, 255, 255, 0.40);
+    --White-500: rgba(255, 255, 255, 0.50);
+    --White-600: rgba(255, 255, 255, 0.60);
+    --White-700: rgba(255, 255, 255, 0.70);
+    --White-900: rgba(255, 255, 255, 0.90);
+
+}
+
+h1{
+    font-family: "PP Editorial New", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin:0;
+}
+
+h2{
+    font-family: "PP Editorial New UltraLight", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin:0;
+
+}
+
+h3{
+    font-family: "PP Editorial New UltraLight", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin:0;
+
+}
+
+h4{
+    font-family: "Trispace", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin:0;
+
+}
+p{
+    font-family: "Trispace", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    margin:0;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: var(--Red-200); 
+    margin: 0 0;
+}
+
+.tiny{
+    font-size: 12px;
+    font-weight:200;
+    color:var(--Black-400);
+}
+
+button{
+    width:fit-content;
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid var(--Black-400);
+    background: var(--White-500);
+    text-decoration:none;
+    font-family: "Trispace", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    transition: color 300ms ease-out;
+}
+
+button:hover {
+    border-radius: 8px;
+    border: 1px solid var(--Black-400);
+    background: var(--Black-100);
+}
+
+
+button:active {
+    border-radius: 8px;
+    border: 1px solid var(--Red);
+    background: var(--Red-200);
+}
+
+.bold{
+    font-weight:700;    
+    border-radius: 16px;
+    
+}
