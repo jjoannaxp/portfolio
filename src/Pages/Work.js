@@ -28,7 +28,7 @@ function Work() {
                 <Project to="/Cases/Tinker" title="Tinker"/>
                 <Project to="/Cases/Measured" title="Measured"/>
                 <Project to="/Cases/WhatNot" title="WhatNot"/>
-                <Project to="/Cases/Eightfold" title="Eightfold"/>
+                {/* <Project to="/Cases/Eightfold" title="Eightfold"/> */}
                 {/* <Project to="/Cases/Split" title="Split"/> */}
             </div>
             

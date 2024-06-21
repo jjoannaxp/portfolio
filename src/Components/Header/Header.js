@@ -23,7 +23,7 @@ function Header() {
             </RouterLink>
             <div className="NavLinks">
                 <Link to="/" text="Work" isSelected={selectedLink === 'Work'} onClick={() => handleLinkClick('Work')} />
-                <Link to="/about" text="About Me" isSelected={selectedLink === 'About'} onClick={() => handleLinkClick('About')} />
+                {/* <Link to="/about" text="About Me" isSelected={selectedLink === 'About'} onClick={() => handleLinkClick('About')} /> */}
                 <Link
                     href="https://drive.google.com/file/d/1i3fBaM8GB3l0weoFacHYO2s1DgLnLoIb/view?usp=sharing"
                     text="Resume"
