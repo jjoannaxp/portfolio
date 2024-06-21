@@ -164,7 +164,7 @@ function Measured() {
           <img src={arrow}></img>
         </button>
       </div>
-      <div className="CaseSection">
+      {/* <div className="CaseSection">
         <div className="SectionHeader">
           <p>03.</p>
           <h2>Process</h2>
@@ -179,7 +179,7 @@ function Measured() {
           - iterations on different tiles -- the pop ups
 
         </p>
-      </div>
+      </div> */}
       <div className="CaseSection">
         <div className="SectionHeader">
           <p>04.</p>
