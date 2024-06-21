@@ -19,7 +19,7 @@ const RouteTitle = () => {
   useEffect(() => {
     const titles = {
       '/': 'Joanna Poon | Product Designer',
-      '/about': 'About',
+      '/About': 'About',
       '/Cases/WhatNot': 'WhatNot',
       '/Cases/Measured': 'Measured',
       '/Cases/Eightfold': 'Eightfold',

@@ -261,9 +261,7 @@ h3 .underlined {
     gap: 24px;
   }
 
-  .contentDiv .gifDesktop{
-    width: 500px;
-  }
+  
 
 .step p {
   color: var(--Black-500);
@@ -391,7 +389,11 @@ ol {
 .wrapMocks img {
   width: calc((100% / 3) - 24px);
 }
-
+@media (min-width: 832px){
+  .contentDiv .gifDesktop{
+    width: 500px;
+  }
+}
 @media (max-width: 832px) {
   #longPainpoint {
     padding: 24px;
@@ -425,6 +427,10 @@ ol {
   .wrapMocks img {
     width: calc((100% / 2) - 24px);
   }
+  .contentDiv .gifDesktop{
+    
+    width:100%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -448,6 +454,7 @@ ol {
   .InfoColumn .tiny {
     font-size: 14px;
   }
+
 }
 
 .prototypeButton {
