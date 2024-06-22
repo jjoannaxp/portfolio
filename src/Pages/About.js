@@ -1,26 +1,45 @@
 import React from "react";
 import "./About.css";
+import arrow from "./../Assets/Arrow.svg";
+import me from "./../Assets/me.jpg";
 
 function About() {
+  const handleButtonClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1i3fBaM8GB3l0weoFacHYO2s1DgLnLoIb/view?usp=sharing",
+      "_blank"
+    );
+  };
   return (
-    <div className="Container">
+    <div className="AboutContainer">
       <div className="SideBySideSection">
-        <div className="SideText">
+        <div className="AboutText">
           <h2>Hi! I'm Joanna Poon.</h2>
           <p>
-            I’m a junior at  University of Southern California’s Iovine and
-            Young Academy, majoring in Arts, Technology, and the Business of
-            Innovation. Originally born and raised in the Silicon Valley of
-            California, I moved just a few hours away to Los Angeles, California
-            to pursue my college education. I started my career in UIUX design
-            while in high school, looking for avenues to blend together my
-            preexisting interests in design and experience with coding. From
-            freelancing to in-house design teams at Samsung and Ernst & Young to
-            design agencies like Work & Co, it has been quite a roller coaster.
+            I’m a junior at University of Southern California’s Iovine and Young
+            Academy, majoring in Arts, Technology, and the Business of
+            Innovation. I was originally born and raised in Cupertino,
+            California (Silicon Valley!) and moved to Los Angeles to pursue my
+            higher education.
+          </p>
+          <p>
+            Growing up I’ve always held a broad collection of interests, ranging
+            from dance to coding to music to art. All my interests had a common
+            thread: <span className="bold">my desire to create.</span>
+          </p>
+          <p>
+            When I'm not working through a line of code or revisiting a
+            wireframe, you can find me searching for a new LA cafe, the best new
+            song, and the next figurine series on my shop list.
           </p>
         </div>
+
+        <img src={me} className="MeImage"></img>
       </div>
-    </div>
+      <button onClick={handleButtonClick} className="prototypeButton">
+Check out my Resume!          <img src={arrow}></img>
+        </button>
+  </div>
   );
 }
 

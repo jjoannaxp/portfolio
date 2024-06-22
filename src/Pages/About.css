@@ -1,3 +1,29 @@
-.SideText{
-    gap: 16px;
+.AboutText{
+    display: flex;
+  flex-direction: column;
+    gap: 24px;
+}
+
+.MeImage{
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid var(--Black-200);
+}
+
+@media (max-width: 576px) {
+    .MeImage{
+        width: 100%;
+    }
+}
+
+.AboutContainer{
+    width: 60%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: auto;
+    margin-top: 160px;
+
 }

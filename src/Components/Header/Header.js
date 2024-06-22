@@ -9,7 +9,7 @@ function Header() {
     const [selectedLink, setSelectedLink] = useState('Work'); // Start with 'Work' selected
 
     const handleLinkClick = (text) => {
-        if(text !='Resume'){
+        if(text !=='Resume'){
             setSelectedLink(text);
         }
         
@@ -23,7 +23,7 @@ function Header() {
             </RouterLink>
             <div className="NavLinks">
                 <Link to="/" text="Work" isSelected={selectedLink === 'Work'} onClick={() => handleLinkClick('Work')} />
-                {/* <Link to="/about" text="About Me" isSelected={selectedLink === 'About'} onClick={() => handleLinkClick('About')} /> */}
+                <Link to="/About" text="About Me" isSelected={selectedLink === 'About'} onClick={() => handleLinkClick('About')} />
                 <Link
                     href="https://drive.google.com/file/d/1i3fBaM8GB3l0weoFacHYO2s1DgLnLoIb/view?usp=sharing"
                     text="Resume"

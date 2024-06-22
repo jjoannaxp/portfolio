@@ -8,7 +8,6 @@ import WhatNot from './Pages/Cases/WhatNot';
 import Measured from './Pages/Cases/Measured';
 import Eightfold from './Pages/Cases/Eightfold';
 import Tinker from './Pages/Cases/Tinker';
-// import Split from './Pages/Cases/Split';
 
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -24,7 +23,6 @@ const RouteTitle = () => {
       '/Cases/Measured': 'Measured',
       '/Cases/Eightfold': 'Eightfold',
       '/Cases/Tinker': 'Tinker',
-    //   '/Cases/Split': 'Split'
 
     };
 
@@ -43,12 +41,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Work />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/About" element={<About />} />
           <Route path="/Cases/WhatNot" element={<WhatNot />} />
           <Route path="/Cases/Measured" element={<Measured />} />
           <Route path="/Cases/Eightfold" element={<Eightfold />} />
           <Route path="/Cases/Tinker" element={<Tinker />} />
-          {/* <Route path="/Cases/Split" element={<Split />} /> */}
 
         </Routes>
         <Footer />
