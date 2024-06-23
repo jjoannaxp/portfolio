@@ -147,6 +147,8 @@ function WhatNot() {
             </div>
           </div>
           <div className="feature">
+          <img src={bidComment} className="gif" />
+
             <div className="step">
               <h3>02. Bid or Comment</h3>
               <p>
@@ -155,7 +157,6 @@ function WhatNot() {
                 interact and ask questions to the seller.
               </p>
             </div>
-            <img src={bidComment} className="gif" />
           </div>
           <div className="feature">
             <img src={switchStream} className="gif" />
@@ -168,6 +169,8 @@ function WhatNot() {
             </div>
           </div>
           <div className="feature">
+          <img src={accessibility} className="gif" />
+
             <div className="step">
               <h3>04. WhatNot TV for All</h3>
               <p>
@@ -177,7 +180,6 @@ function WhatNot() {
                 feature, making WhatNot TV for everyone.
               </p>
             </div>
-            <img src={accessibility} className="gif" />
           </div>
           <div className="feature">
             <img src={settings} className="gif" />
