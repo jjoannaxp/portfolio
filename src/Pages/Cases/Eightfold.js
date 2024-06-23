@@ -5,10 +5,7 @@ import notifs from "../../Assets/eighfold/notifications.gif";
 import settings from "../../Assets/eighfold/settings.gif";
 import oldnav from "../../Assets/eighfold/slide-old.png";
 import newnav from "../../Assets/eighfold/slide.png";
-import all from "../../Assets/eighfold/All.png";
-import people from "../../Assets/eighfold/People.png";
-import project from "../../Assets/eighfold/Project.png";
-import job from "../../Assets/eighfold/Job.png";
+import all from "../../Assets/eighfold/notifs-old.png";
 import notifNew from "../../Assets/eighfold/notifs-new.png";
 
 function Eightfold() {
@@ -265,19 +262,17 @@ function Eightfold() {
           realized that this caused the userflow to be unecessarily extended
           with extra steps.
         </p>
-        <div className="ImageCaption">
-          <div className="wrapMocks">
-            <img src={all} className="sImg"></img>
-            <img src={people} className="sImg"></img>
-            <img src={project} className="sImg"></img>
-            <img src={job} className="sImg"></img>
+        <div className="SideBySideSection">
+          <div className="ImageCaption">
+            
+              <img src={all} className="sImg"></img>
+            <p>Separated Notification Setting</p>
           </div>
-          <p>Separated Notification Setting</p>
-        </div>
 
-        <div className="ImageCaption">
-          <img src={notifNew} className="sImg"></img>
-          <p>Combined Notification Setting</p>
+          <div className="ImageCaption">
+            <img src={notifNew} className="sImg"></img>
+            <p>Combined Notification Setting</p>
+          </div>
         </div>
       </div>
       <div className="CaseSection">
@@ -286,17 +281,27 @@ function Eightfold() {
           <h2>Takeaways</h2>
           <hr></hr>
         </div>
-        <p>This internship was an amazing learning experience as someone who didn't encounter UX design at all beforehand. It allowed me to learn UX from the ground up and discover the process behind every design decision.</p>
+        <p>
+          This internship was an amazing learning experience as someone who
+          didn't encounter UX design at all beforehand. It allowed me to learn
+          UX from the ground up and discover the process behind every design
+          decision.
+        </p>
         <div className="takeaway">
           <h3>1. Think from the user.</h3>
           <p>
-            Design is always based on the user's wants and needs. In order to create a good design, I need to imagine myself as the user with their wants and needs in order to create a design for them.
+            Design is always based on the user's wants and needs. In order to
+            create a good design, I need to imagine myself as the user with
+            their wants and needs in order to create a design for them.
           </p>
         </div>
         <div className="takeaway">
           <h3>2. Be detailed.</h3>
           <p>
-            Every interaction counts, even the splash screens or onboarding slides, for creating the user experience. A small move in positioning in terms of different pages and how to access them creates a huge change in the user's experience.
+            Every interaction counts, even the splash screens or onboarding
+            slides, for creating the user experience. A small move in
+            positioning in terms of different pages and how to access them
+            creates a huge change in the user's experience.
           </p>
         </div>
       </div>

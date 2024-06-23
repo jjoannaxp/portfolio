@@ -27,6 +27,13 @@ h1 span{
     margin-top: 104px;
 }
 
+
+
+.WorkContainer .SectionHeader{
+    align-items: center;
+}
+
+
 h4 span{
     color: var(--Red);
 }
