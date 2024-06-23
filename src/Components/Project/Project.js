@@ -32,7 +32,7 @@ const projects = [
         date: "Fall 2023"
     },{
         title: "Eightfold.AI",
-        role: "Product Design Intern",
+        role: "UX Design Intern",
         src: eightfoldImg,
         phrase: "Transform how organizations hire, manage, retain, and upskill their workers through data and AI.",
         type: "App Design",

@@ -14,12 +14,10 @@ function Work() {
                 <div className="ExperienceContainer">
                     <h3>previously:</h3>
                     <div className="ExperienceButtons">
-                        {/* <Link to="/Cases/WhatNot" text="WhatNot" isButton ={true} />
+                        <Link to="/Cases/WhatNot" text="WhatNot" isButton ={true} />
                         <Link to="/Cases/Measured" text="Measured" isButton ={true} />
-                        <Link to="/Cases/Eightfold" text="Eightfold" isButton ={true} /> */}
-                        <div className="NavButton"><h4>WhatNot</h4></div>
-                        <div className="NavButton"><h4>Eightfold.AI</h4></div>
-                        <div className="NavButton"><h4>Measured</h4></div>
+                        <Link to="/Cases/Eightfold" text="Eightfold" isButton ={true} />
+                        
                     </div>
                 </div>
             </div>
@@ -28,7 +26,7 @@ function Work() {
                 <Project to="/Cases/Tinker" title="Tinker"/>
                 <Project to="/Cases/Measured" title="Measured"/>
                 <Project to="/Cases/WhatNot" title="WhatNot"/>
-                {/* <Project to="/Cases/Eightfold" title="Eightfold"/> */}
+                <Project to="/Cases/Eightfold" title="Eightfold"/>
                 {/* <Project to="/Cases/Split" title="Split"/> */}
             </div>
             

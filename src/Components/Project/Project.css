@@ -18,13 +18,15 @@
 }
 
 .Project.hovered{
-    background-color: var(--White-900);
-    border-color: var(--Black-300);
+    background-color: var(--White-200);
+
 }
 
 
+
+
 .Project.pressed{
-    background-color: var(--Black-100);
+    background-color: var(--Black-30);
     border-color: var(--Black-300);
 }
 
@@ -108,4 +110,11 @@ p{
         gap: 24px;
     }
     
+}
+
+.circle{
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    background-color: var(--Red-200);
 }

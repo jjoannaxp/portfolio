@@ -29,17 +29,17 @@ function About() {
           </p>
           <p>
             When I'm not working through a line of code or revisiting a
-            wireframe, you can find me searching for a new LA cafe, the best new
-            song, and the next figurine series on my shop list.
+            wireframe, you can find me searching for a new LA cafe, the perfect
+            flea market find, and the next figurine series on my shop list.
           </p>
         </div>
 
         <img src={me} className="MeImage"></img>
       </div>
       <button onClick={handleButtonClick} className="prototypeButton">
-Check out my Resume!          <img src={arrow}></img>
-        </button>
-  </div>
+        Check out my Resume! <img src={arrow}></img>
+      </button>
+    </div>
   );
 }
 
