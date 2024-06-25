@@ -10,6 +10,7 @@ function Header() {
 
     const handleLinkClick = (text) => {
         if(text !=='Resume'){
+            window.scrollTo(0, 0); // Scroll to top
             setSelectedLink(text);
         }
         

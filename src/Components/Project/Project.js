@@ -12,7 +12,7 @@ const projects = [
         title: "Tinker",
         role: "Product Designer",
         src: tinkerImg,
-        phrase: "Streamline landlords’ contractor search through a contractor marketplace.",
+        phrase: "Streamline landlords’ contractor search through an AI powered marketplace.",
         type: "App Design",
         date: "Spring 2024"
     },
@@ -70,6 +70,7 @@ function Project({ to, title}) {
     const handleMouseUp = () => {
         setIsPressed(false);
         setIsHovered(true);
+        window.scrollTo(0, 0); // Scroll to top
     };
 
 

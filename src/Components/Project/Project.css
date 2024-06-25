@@ -82,14 +82,12 @@ img{
     align-items: center;
     gap: 8px;
     border-radius: 12px;
-    flex-wrap: wrap;
     /* border: 1px solid var(--Black-600);
     background: var(--Red-50); */
 }
 
 .ProjectDetails p{
     color: var(--Black-300);
-    width:100%;
 }
 
 .TitleContainer p{
@@ -99,6 +97,18 @@ img{
 p{
     color: var(--Black);
 } 
+
+@media (max-width: 1322px) {
+    .circle{
+        display:none;
+    }
+
+    .ProjectDetails{
+        flex-direction: column;
+        gap:8px;
+        align-items: start;
+    }
+}
 
 @media (max-width: 832px) {
     .Project{

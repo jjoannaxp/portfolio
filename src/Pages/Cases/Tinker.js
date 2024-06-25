@@ -43,7 +43,7 @@ function Tinker() {
         <div className="TitleSection">
           <h1>Tinker</h1>
           <p className="bold">
-            Tinker is a contractor market place that streamline landlords’
+            Tinker is a AI-powered marketplace that streamlines landlords’
             contractor search.
           </p>
         </div>

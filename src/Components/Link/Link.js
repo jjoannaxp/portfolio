@@ -23,14 +23,17 @@ function Link({ to, href, text, isArrow, isSelected, onClick, isButton}) {
     const handleMouseUp = () => {
         setIsPressed(false);
         setIsHovered(true);
+        window.scrollTo(0, 0); // Scroll to top
+
     };
 
     const handleClick = (e) => {
         if (href) {
             e.preventDefault(); // Prevent default routing behavior
             window.open(href, '_blank'); // Open the link in a new tab
+        } else {
+            onClick(text);
         }
-        onClick(text);
     };
     const LinkName = isButton ? 'NavButton' : 'NavLink';
     const ContentName = isButton ? 'ButtonContent' : 'LinkContent';
