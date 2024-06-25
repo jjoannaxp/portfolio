@@ -13,7 +13,7 @@ function Footer() {
         
     };
     const handleEmailClick = () => {
-        window.location.href = 'mailto:example@example.com';
+        window.location.href = 'mailto:joannaxpoon@gmail.com';
       };
     
 
@@ -28,7 +28,7 @@ function Footer() {
             <div className="Right">
                 <div className="RightLinks">
                 <Link
-                    href="https://drive.google.com/file/d/1a06K76hw8XxepVGo4EruWXFp8QkKzTny/view?usp=sharing"
+                    href="https://drive.google.com/file/d/10Ew9k9THc-U8e789pCuLnDpaSmPO8K65/view?usp=sharing"
                     text="Resume"
                     isArrow ="true"
                     isSelected={selectedLink === 'Resume'}
@@ -42,7 +42,7 @@ function Footer() {
                     onClick={() => handleLinkClick('Resume')}
                 />
                 </div>
-                <button onClick={handleEmailClick} className="emailButton">jhpoon@usc.edu</button>
+                <button onClick={handleEmailClick} className="emailButton">joannaxpoon@usc.edu</button>
 
             </div>
         </div>

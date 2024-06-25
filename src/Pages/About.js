@@ -6,7 +6,7 @@ import me from "./../Assets/me.jpg";
 function About() {
   const handleButtonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1a06K76hw8XxepVGo4EruWXFp8QkKzTny/view?usp=sharing",
+      "https://drive.google.com/file/d/10Ew9k9THc-U8e789pCuLnDpaSmPO8K65/view?usp=sharing",
       "_blank"
     );
   };
