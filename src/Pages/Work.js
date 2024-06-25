@@ -1,6 +1,6 @@
 import React from "react";
 import "./Work.css";
-import { Link } from 'react-router-dom';
+import Link from '../Components/Link/Link.js';
 import Project from "../Components/Project/Project.js";
 import arrow from '../Assets/Arrow.svg';
 
@@ -38,7 +38,7 @@ function Work() {
         <Project to="/Cases/Eightfold" title="Eightfold" />
         {/* <Project to="/Cases/Split" title="Split"/> */}
 
-        <div className="SideBySideSection">
+        {/* <div className="SideBySideSection">
           <h2>Want More?</h2>
           <Link to="/Fun">
             <button>
@@ -46,7 +46,7 @@ function Work() {
               <img src={arrow} alt="arrow" />
             </button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
