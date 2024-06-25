@@ -1,0 +1,10 @@
+.FunSection{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.wrapMocks img{
+    border-radius: 16px;
+    
+}
+

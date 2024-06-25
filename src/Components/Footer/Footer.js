@@ -7,7 +7,7 @@ function Footer() {
     const [selectedLink, setSelectedLink] = useState('Work'); // Start with 'Work' selected
 
     const handleLinkClick = (text) => {
-        if(text !='Resume'){
+        if(text !=='Resume'){
             setSelectedLink(text);
         }
         
@@ -28,7 +28,7 @@ function Footer() {
             <div className="Right">
                 <div className="RightLinks">
                 <Link
-                    href="https://drive.google.com/file/d/1i3fBaM8GB3l0weoFacHYO2s1DgLnLoIb/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1a06K76hw8XxepVGo4EruWXFp8QkKzTny/view?usp=sharing"
                     text="Resume"
                     isArrow ="true"
                     isSelected={selectedLink === 'Resume'}

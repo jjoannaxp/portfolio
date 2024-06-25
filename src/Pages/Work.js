@@ -1,7 +1,8 @@
 import React from "react";
 import "./Work.css";
-import Link from "../Components/Link/Link.js";
+import { Link } from 'react-router-dom';
 import Project from "../Components/Project/Project.js";
+import arrow from '../Assets/Arrow.svg';
 
 function Work() {
   return (
@@ -24,20 +25,29 @@ function Work() {
           </div>
         </div>
       </div>
-        
-        <div className="WorkContainer">
-            <div className="SectionHeader">
+
+      <div className="WorkContainer">
+        <div className="SectionHeader">
           <hr></hr>
           <h2>Selected Works</h2>
-
           <hr></hr>
-          </div>
-          <Project to="/Cases/Tinker" title="Tinker" />
-          <Project to="/Cases/Measured" title="Measured" />
-          <Project to="/Cases/WhatNot" title="WhatNot" />
-          <Project to="/Cases/Eightfold" title="Eightfold" />
-          {/* <Project to="/Cases/Split" title="Split"/> */}
         </div>
+        <Project to="/Cases/Tinker" title="Tinker" />
+        <Project to="/Cases/Measured" title="Measured" />
+        <Project to="/Cases/WhatNot" title="WhatNot" />
+        <Project to="/Cases/Eightfold" title="Eightfold" />
+        {/* <Project to="/Cases/Split" title="Split"/> */}
+
+        <div className="SideBySideSection">
+          <h2>Want More?</h2>
+          <Link to="/Fun">
+            <button>
+              Play With the Final Prototype!
+              <img src={arrow} alt="arrow" />
+            </button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
