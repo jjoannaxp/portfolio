@@ -6,8 +6,16 @@ import view from "../../Assets/measured/view.gif";
 import drill from "../../Assets/measured/drill.gif";
 import side from "../../Assets/measured/side.gif";
 import add from "../../Assets/measured/add.gif";
+import { useNavigate } from "react-router-dom";
 
 function Measured() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
+  };
+
   const scrollToSection = () => {
     document.getElementById("Solution").scrollIntoView({ behavior: "smooth" });
   };
@@ -62,14 +70,14 @@ function Measured() {
             <p>
               In Summer 2023, I interned for Measured whilst they were in the
               midst of a major redesign. I was assigned a range of small tasks,
-              but my main task was{" "}
+              but my main goal was{" "}
               <span className="bold">redesigning the main dashboard</span> and
               creating components for the new design to be used throughout the
               rest of the platform.
             </p>
 
             <div className="InfoColumn">
-              <p className="tiny">Short on time?</p>
+              <p>Short on time?</p>
               <button onClick={scrollToSection} className="scrollButton">
                 Jump to Final Product
               </button>
@@ -88,10 +96,13 @@ function Measured() {
           <div className="SideText">
             {" "}
             <p>
-              In my time at Measured, they were in the middle of completely
-              revamping their UX from previous designs.
+              In my time at Measured, our main goal was to completely revamp the
+              User Experience.
             </p>
-            <h3>I was given the task to redesign the main dashboard.</h3>
+            <h3>
+              I owned the redesign of the Main Dashboard, the starting point of
+              all user journeys.
+            </h3>
           </div>
           <div className="ImageCaption">
             <img src={before} className="sideImage" id="round"></img>
@@ -185,40 +196,42 @@ function Measured() {
           <p>04.</p>
           <h2>Takeaways</h2>
           <hr></hr>
-          </div>
-          <div className="takeaway">
-            <h3>1. Listen to the user. </h3>
-            <p>
-              In the process of making the dashboard, we conducted a couple user
-              interviews with existing Measured users to see how they feel about
-              some of our design decisions. It turns out, a lot of the product
-              decisions we had initially made didn't actually solve user
-              burdens. Within the scope of my internship, I wasn't able to
-              adjust the design based on this feedback, but I learned that
-              constant user feedback is vital.
-            </p>
-          </div>
-          <div className="takeaway">
-            <h3>2. A design system is vital.</h3>
-            <p>
-              For a platform as large as Measured, having a scalable and
-              organized design system can make or break the design process.
-              Creating components based off the home page was a huge learning
-              experience for me, allowing me to understand the importance of
-              scalability.
-            </p>
-          </div>
-          <div className="takeaway">
-            <h3>3. Learn your tool well.</h3>
-            <p>
-              While designing is a broad concept that exists beyond a couple tools, this internship taught me that being able to use the tools I'm utilizing to its fullest capacity helps me conceptualize my design skills with greater ease, efficiency, and cleanliness.
-            </p>
-          </div>
         </div>
-        <button onClick={scrollToSection} className="scrollButton">
-          Jump Back to Final Product
-        </button>
+        <div className="takeaway">
+          <h3>1. Listen to the user. </h3>
+          <p>
+            In the process of making the dashboard, we conducted a couple user
+            interviews with existing Measured users to see how they feel about
+            some of our design decisions. It turns out, a lot of the product
+            decisions we had initially made didn't actually solve user burdens.
+            Within the scope of my internship, I wasn't able to adjust the
+            design based on this feedback, but I learned that constant user
+            feedback is vital.
+          </p>
+        </div>
+        <div className="takeaway">
+          <h3>2. A design system is vital.</h3>
+          <p>
+            For a platform as large as Measured, having a scalable and organized
+            design system can make or break the design process. Creating
+            components based off the home page was a huge learning experience
+            for me, allowing me to understand the importance of scalability.
+          </p>
+        </div>
+        <div className="takeaway">
+          <h3>3. Learn your tool well.</h3>
+          <p>
+            While designing is a broad concept that exists beyond a couple
+            tools, this internship taught me that being able to use the tools
+            I'm utilizing to its fullest capacity helps me conceptualize my
+            design skills with greater ease, efficiency, and cleanliness.
+          </p>
+        </div>
       </div>
+      <button onClick={handleClick} className="homeButton">
+        See my other works!
+      </button>
+    </div>
   );
 }
 

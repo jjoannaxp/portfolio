@@ -23,6 +23,8 @@ import home from "../../Assets/whatnot/home.png";
 import bid from "../../Assets/whatnot/bidding.png";
 import bid2 from "../../Assets/whatnot/bidding2.png";
 import tv from "../../Assets/whatnot/TV.png";
+import { useNavigate } from "react-router-dom";
+
 
 function WhatNot() {
   const scrollToSection = () => {
@@ -33,6 +35,12 @@ function WhatNot() {
       "https://www.figma.com/proto/L5ocN1bkIIIDrWlIDyv1pg/Whatnot-Team-%231?page-id=516%3A1818&node-id=516-4202&viewport=82%2C479%2C0.48&t=SbpuRtoxxoErNlTs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=516%3A4202&show-proto-sidebar=1",
       "_blank"
     );
+  };
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
   };
   return (
     <div className="Container">
@@ -560,10 +568,11 @@ function WhatNot() {
        
         
         
-        <button onClick={scrollToSection} className="scrollButton">
-        Jump Back to Final Product
-      </button>
+       
       </div>
+      <button onClick={handleClick} className="homeButton">
+        See my other works!
+      </button>
     </div>
   );
 }

@@ -7,10 +7,17 @@ import oldnav from "../../Assets/eighfold/slide-old.png";
 import newnav from "../../Assets/eighfold/slide.png";
 import all from "../../Assets/eighfold/notifs-old.png";
 import notifNew from "../../Assets/eighfold/notifs-new.png";
+import { useNavigate } from "react-router-dom";
 
 function Eightfold() {
   const scrollToSection = () => {
     document.getElementById("Solution").scrollIntoView({ behavior: "smooth" });
+  };
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
   };
   return (
     <div className="Container">
@@ -264,8 +271,7 @@ function Eightfold() {
         </p>
         <div className="SideBySideSection">
           <div className="ImageCaption">
-            
-              <img src={all} className="sImg"></img>
+            <img src={all} className="sImg"></img>
             <p>Separated Notification Setting</p>
           </div>
 
@@ -305,6 +311,9 @@ function Eightfold() {
           </p>
         </div>
       </div>
+      <button onClick={handleClick} className="homeButton">
+        See my other works!
+      </button>
     </div>
   );
 }

@@ -375,6 +375,10 @@ h3 .underlined {
   align-items: start;
 }
 
+.InfoColumn p{
+  color: var(--Black-500);
+}
+
 .painpoint h4 {
   text-align: center;
 }

@@ -2,6 +2,8 @@ import React from "react";
 import "./About.css";
 import arrow from "./../Assets/Arrow.svg";
 import me from "./../Assets/me.jpg";
+import { useNavigate } from "react-router-dom";
+
 
 function About() {
   const handleButtonClick = () => {

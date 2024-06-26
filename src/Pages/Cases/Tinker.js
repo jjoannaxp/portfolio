@@ -23,6 +23,9 @@ import statusHF from "../../Assets/Tinker/status-hf.png";
 import designSystem from "../../Assets/Tinker/designSystem.png";
 import components from "../../Assets/Tinker/components.png";
 import tinkerTeam from "../../Assets/Tinker/tinkerTeam.png";
+import { useNavigate } from "react-router-dom";
+
+
 function Tinker() {
   const scrollToSection = () => {
     document.getElementById("Solution").scrollIntoView({ behavior: "smooth" });
@@ -34,6 +37,12 @@ function Tinker() {
     );
   };
 
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="Container">
       <div className="ProjectHeader">
@@ -554,8 +563,8 @@ function Tinker() {
             <p className="tiny">Me and my team at Demo Night!</p>
           </div>
         </div>
-        <button onClick={scrollToSection} className="scrollButton">
-        Jump Back to Final Product
+        <button onClick={handleClick} className="homeButton">
+        See my other works!
       </button>
       </div>
       
