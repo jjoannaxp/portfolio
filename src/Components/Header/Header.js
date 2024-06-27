@@ -13,7 +13,6 @@ function Header() {
             window.scrollTo(0, 0); // Scroll to top
             setSelectedLink(text);
         }
-        
     };
 
     return (
@@ -24,6 +23,7 @@ function Header() {
             </RouterLink>
             <div className="NavLinks">
                 <Link to="/" text="Work" isSelected={selectedLink === 'Work'} onClick={() => handleLinkClick('Work')} />
+                <Link to="/Fun" text="Just For Fun" isSelected={selectedLink === 'Fun'} onClick={() => handleLinkClick('Fun')} />
                 <Link to="/About" text="About Me" isSelected={selectedLink === 'About'} onClick={() => handleLinkClick('About')} />
                 <Link
                     href="https://drive.google.com/file/d/1z6Ljg17jXyY8_OF6loazUasUDTqOoWSG/view?usp=sharing"

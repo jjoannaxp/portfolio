@@ -1,10 +1,79 @@
-.FunSection{
-    display:flex;
+.FunSection {
+    display: flex;
     flex-direction: column;
     gap: 24px;
-}
-.wrapMocks img{
-    border-radius: 16px;
-    
+    width: 100%;
 }
 
+.wrapMocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.wrapMocks img {
+    border-radius: 16px;
+}
+
+.wrapMocks .graphic, #graphic {
+    flex: 1 1 calc(33.333% - 24px); /* Adjust for the gap */
+    max-width: calc(33.333% - 24px); /* Ensure the images don't exceed their container */
+}
+
+@media (max-width: 832px) {
+    .wrapMocks .graphic, #graphic{
+        flex: 1 1 calc(50% - 24px); /* Adjust for the gap */
+        max-width: calc(50% - 24px); /* Ensure the images don't exceed their container */
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapMocks {
+        flex-direction: column;
+    }
+
+    .wrapMocks .graphic, #graphic {
+        flex: 1 1 100%; /* Take full width in column layout */
+        max-width: 100%;
+    }
+}
+
+.graphic {
+    flex: 1;
+}
+
+.loop {
+    flex: 1;
+    width: 100%;
+}
+.wrapMocks .ImageCaption{
+    width:fit-content;
+}
+.interface {
+    flex: 2;
+    width: 100%;
+}
+
+.ImageCaption p{
+    text-decoration: none;
+}
+
+.wrapMocks .reg, #reg {
+    flex: 1 1 calc(33.333% - 24px); /* Adjust for the gap to fit 3 per row */
+    max-width: calc(33.333% - 24px); /* Ensure the images don't exceed their container */
+}
+.wrapMocks .long, #long {
+    flex: 1 1 calc(50% - 24px); /* Adjust for the gap to fit 3 per row */
+    max-width: calc(50% - 24px); /* Ensure the images don't exceed their container */
+}
+a{
+    text-decoration:none ;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}

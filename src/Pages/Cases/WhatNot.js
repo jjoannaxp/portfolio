@@ -418,11 +418,11 @@ function WhatNot() {
           </p>
           <div className="ImageCaption">
             <div className="wrapMocks">
-              <img src={iteration1}></img>
-              <img src={iteration2}></img>
-              <img src={iteration3}></img>
-              <img src={iteration4}></img>
-              <img src={iteration5}></img>
+              <img src={iteration1} className="mock"></img>
+              <img src={iteration2} className="mock"></img>
+              <img src={iteration3} className="mock"></img>
+              <img src={iteration4} className="mock"></img>
+              <img src={iteration5} className="mock"></img>
             </div>
             <p className="tiny">Our second iteration</p>
           </div>

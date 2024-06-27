@@ -415,7 +415,7 @@ ol {
   justify-content: center;
   gap: 24px;
 }
-.wrapMocks img {
+.wrapMocks mock {
   width: calc((100% / 3) - 24px);
 }
 @media (min-width: 832px){
@@ -453,7 +453,7 @@ ol {
     flex-direction: column;
     gap: 24px;
   }
-  .wrapMocks img {
+  .wrapMocks .mock {
     width: calc((100% / 2) - 24px);
   }
   .contentDiv .gifDesktop{

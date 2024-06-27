@@ -3,8 +3,15 @@ import "./Work.css";
 import Link from '../Components/Link/Link.js';
 import Project from "../Components/Project/Project.js";
 import arrow from '../Assets/Arrow.svg';
+import { useNavigate } from "react-router-dom";
 
 function Work() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/Fun");
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="Container">
       <div className="Hero">
@@ -36,17 +43,14 @@ function Work() {
         <Project to="/Cases/Measured" title="Measured" />
         <Project to="/Cases/WhatNot" title="WhatNot" />
         <Project to="/Cases/Eightfold" title="Eightfold" />
-        {/* <Project to="/Cases/Split" title="Split"/> */}
 
-        {/* <div className="SideBySideSection">
+        <div className="SubSection" id="full">
           <h2>Want More?</h2>
-          <Link to="/Fun">
-            <button>
-              Play With the Final Prototype!
+            <button onClick={handleClick} className="funButton">
+              What I do for fun!
               <img src={arrow} alt="arrow" />
             </button>
-          </Link>
-        </div> */}
+        </div>
       </div>
     </div>
   );
