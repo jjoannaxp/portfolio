@@ -25,7 +25,6 @@ import bid2 from "../../Assets/whatnot/bidding2.png";
 import tv from "../../Assets/whatnot/TV.png";
 import { useNavigate } from "react-router-dom";
 
-
 function WhatNot() {
   const scrollToSection = () => {
     document.getElementById("Solution").scrollIntoView({ behavior: "smooth" });
@@ -84,9 +83,9 @@ function WhatNot() {
           </div>
           <div className="ProjectDescription">
             <p>
-              For six weeks, me and a team of 2 other designers were given the
+              For six weeks, my team of 2 other designers and I were given the
               task to imagine a "10-foot" experience for WhatNot for a specific
-              demographic within the WhatNot Users. We chose the elderly.
+              demographic within the WhatNot Users. We chose seniors.
             </p>
 
             <div className="InfoColumn">
@@ -108,14 +107,15 @@ function WhatNot() {
         <div className="SideBySideSection">
           <div className="SideText">
             <p>
-              Me and two other designers were given the task to re-imagine the
-              current social marketplace experience for a couch to TV
-              setting–the "10ft experience."
+              WhatNot provides a unique service for buyers and sellers through a
+              livestream auction experience. WhatNot has previously lived on the
+              mobile app, but the television space is an untapped area for the
+              company.
             </p>
             <p>
-              After our initial research and brainstorming, we thought it would
-              be interesting to discover how we can redesign it for the{" "}
-              <span className="bold">elderly.</span>
+              After our initial research and brainstorming, we decided to
+              explore how we can optimize the experience for{" "}
+              <span className="bold">seniors.</span>
             </p>
           </div>
           <div className="ImageCaption">
@@ -124,6 +124,13 @@ function WhatNot() {
             </div>
             <p className="tiny">Our brainstorming session.</p>
           </div>
+        </div>
+        <div className="Callout">
+          <p className="tiny">HOW MIGHT WE STATEMENT</p>
+          <h3>
+            How might we make live-stream shopping simple for seniors in the
+            television space?
+          </h3>
         </div>
       </div>
       <div className="CaseSection" id="Solution">
@@ -155,7 +162,7 @@ function WhatNot() {
             </div>
           </div>
           <div className="feature">
-          <img src={bidComment} className="gif" />
+            <img src={bidComment} className="gif" />
 
             <div className="step">
               <h3>02. Bid or Comment</h3>
@@ -177,7 +184,7 @@ function WhatNot() {
             </div>
           </div>
           <div className="feature">
-          <img src={accessibility} className="gif" />
+            <img src={accessibility} className="gif" />
 
             <div className="step">
               <h3>04. WhatNot TV for All</h3>
@@ -215,8 +222,8 @@ function WhatNot() {
           </div>
 
           <p>
-            We started by conducting research into our chosen stakeholder the
-            elderly. We found information that helped solidify our confidence in
+            We started by conducting research into our chosen stakeholder
+            seniors. We found information that helped solidify our confidence in
             our choice, despite it being an unconventional one.
           </p>
           <div className="SideBySideSection">
@@ -239,9 +246,9 @@ function WhatNot() {
             </div>
           </div>
           <p>
-            This proved that seniors are the highest population to watch TV.
-            After confirming the fact taht seniors spend a lot of time in front
-            of the TV, we looked into what type of TV they watched.
+            This proved that seniors are the largest TV audience. After
+            confirming the fact taht seniors spend a lot of time in front of the
+            TV, we looked into what type of TV they watched.
           </p>
           <div className="Callout">
             <h3>
@@ -260,7 +267,7 @@ function WhatNot() {
             seniors are willing to branch out from traditional TV cable.
           </p>
           <p>
-            After confirming that seniors do in fact watch streaming services,
+            After confirming that seniors did in fact watch streaming services,
             we looked into their usage of online shopping.
           </p>
           <div className="Callout">
@@ -274,8 +281,8 @@ function WhatNot() {
           </div>
           <p>
             We were able to confirm that a large population of seniors
-            participate in online shopping, meaning that the stakeholder group
-            was indeed viable for WhatNot TV.
+            participated in online shopping, validating the viability of focus
+            on seniors.
           </p>
         </div>
         <div className="subsection">
@@ -450,7 +457,7 @@ function WhatNot() {
                 <em>Our interface was very flat.</em>
               </h3>
               <p>
-                Since our main stakeholder group was the elderly, having a flat
+                Since our main stakeholder group was seniors, having a flat
                 interface that doesn't mimic real physical buttons was
                 backwards.
               </p>
@@ -556,19 +563,26 @@ function WhatNot() {
         <div className="takeaway">
           <h3>1. Defining the product is vital.</h3>
           <p>
-            One of our biggest mistakes was the lack of the bid button, which is the main functionality of the WhatNot stream. We were so focused on how we can make the design for our stakeholder group that we forgot to define the user motivation in the first place. A user story before designing is probably the most important part, and since we neglected that, our design showed reflected that flaw in our design process.
+            One of our biggest mistakes was the lack of the bid button, which is
+            the main functionality of the WhatNot stream. We were so focused on
+            how we can make the design for our stakeholder group that we forgot
+            to define the user motivation in the first place. A user story
+            before designing is probably the most important part, and since we
+            neglected that, our design showed reflected that flaw in our design
+            process.
           </p>
         </div>
         <div className="takeaway">
           <h3>2. Think from all directions.</h3>
           <p>
-            When we were designing, we were zeroed in on the remote design, and  thus we forgot the entire TV interface when designing. Had we designed the TV interface in addition to the remote, we would've seen the major design flaw in not including the bidding button on the remote. Thinking through the entire ecosystem in play and designing every aspect to work together is incredibly helpful.
+            When we were designing, we were zeroed in on the remote design, and
+            thus we forgot the entire TV interface when designing. Had we
+            designed the TV interface in addition to the remote, we would've
+            seen the major design flaw in not including the bidding button on
+            the remote. Thinking through the entire ecosystem in play and
+            designing every aspect to work together is incredibly helpful.
           </p>
         </div>
-       
-        
-        
-       
       </div>
       <button onClick={handleClick} className="homeButton">
         See my other works!

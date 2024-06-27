@@ -25,7 +25,6 @@ import components from "../../Assets/Tinker/components.png";
 import tinkerTeam from "../../Assets/Tinker/tinkerTeam.png";
 import { useNavigate } from "react-router-dom";
 
-
 function Tinker() {
   const scrollToSection = () => {
     document.getElementById("Solution").scrollIntoView({ behavior: "smooth" });
@@ -87,22 +86,22 @@ function Tinker() {
           </div>
           <div className="ProjectDescription">
             <p>
-              As real estate becomes increasingly popular, many small landlords
-              entering the industry struggle to find reliable contractors
-              quickly, resulting in tenants suffering with their problems for
-              too long.
+              As real estate investing becomes increasingly popular, many small
+              landlords entering the industry struggle to find reliable
+              contractors quickly, resulting in delayed maintenance issues and
+              poor tenant experience.
             </p>
 
             <p>
               That's why me and my team created Tinker, an AI-powered
               marketplace platform that{" "}
               <span className="bold">
-                streamlines your search for great contractors.
+                streamlines the search for great contractors.
               </span>
             </p>
             <p>
-              In the Spring 2024 LavaLab Demo Night, Tinker won won the Best
-              Pitch award after pitching our product to 200+ attendees.
+              In the Spring 2024 LavaLab Demo Night, Tinker won the Best Pitch
+              award after pitching our product to 200+ attendees.
             </p>
             <div className="InfoColumn">
               <p className="tiny">Short on time?</p>
@@ -130,10 +129,12 @@ function Tinker() {
             <p>
               Both of my parents are landlords, and they rely heavily on
               word-of-mouth recommendations and had to call around to find
-              reliable contractors. They usually have a couple contractors
-              they're going back and forth with at the same time. This process
-              is not only time-consuming but also highly inefficient, often
-              leading to chaos and frustration when urgent repairs are needed.
+              reliable contractors. They usually have a multiple contractors
+              they're going back and forth with at the same time, and finding
+              good contractors who offer great services at competitive cost but
+              also available are often very difficult and extremely time
+              consuming. This process is highly inefficient, often leading to
+              chaos and frustration when urgent repairs are needed.
             </p>
             <p>
               And I know our parents weren't alone with this problem. My team
@@ -411,17 +412,18 @@ function Tinker() {
 
           <p>
             From these baseline user flows, I designed the basic iteration of
-            the 3 flows and iterated multiple times on each flow.
+            the 3 flows and rapidly iterated multiple times on each following
+            user and stakeholder interviews and feedback.
           </p>
 
           <p>
-            The experience for contractors was the most difficult for me, and
-            involved a multitude of iterations before the final product. I
-            started by looking a other apps with similar interactions, like Uber
-            for drivers, UpWork, and Airbnb. I thought of a range of
-            interactions, from having contractors go "live" to accept work
-            orders or sending them notifications when there was a work order in
-            their area.
+            The contractor's experience represented an huge design challenge and
+            involved a multitude of iterations. I started by researching other
+            applications with similar user journeys such as Uber for drivers,
+            Upwork and AirBnB. I also tested a range of different interaction
+            design options, including requiring contractors go “live” to accept
+            work orders, sending contractors notifications when there was a work
+            order in their area.
           </p>
           <div className="SideBySideSection">
             <div className="ImageCaption">
@@ -434,8 +436,9 @@ function Tinker() {
             </div>
           </div>
           <p>
-            My final interaction was having a large database, both in list and
-            map form, for contractors to peruse when they want to look for jobs.
+            My final interaction was having all currently available projects for
+            contractors to browse through when they want to look for a job, both
+            in list and map form.
           </p>
           <div className="ImageCaption">
             <img src={finalContractor} className="sideImg"></img>
@@ -505,9 +508,7 @@ function Tinker() {
           <hr></hr>
         </div>
         <h3>Our award winning pitch deck!</h3>
-        <iframe
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIvQxyZJCGeXyFHwF3luDuc%2FLava-Decks%3Fpage-id%3D545%253A10574%26node-id%3D545-10575%26viewport%3D535%252C91%252C0.02%26t%3DOu4jYJEMoSq1R6mQ-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D545%253A10575"
-        ></iframe>
+        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIvQxyZJCGeXyFHwF3luDuc%2FLava-Decks%3Fpage-id%3D545%253A10574%26node-id%3D545-10575%26viewport%3D535%252C91%252C0.02%26t%3DOu4jYJEMoSq1R6mQ-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D545%253A10575"></iframe>
       </div>
 
       <div className="CaseSection">
@@ -564,10 +565,9 @@ function Tinker() {
           </div>
         </div>
         <button onClick={handleClick} className="homeButton">
-        See my other works!
-      </button>
+          See my other works!
+        </button>
       </div>
-      
     </div>
   );
 }

@@ -60,10 +60,10 @@ function Eightfold() {
           </div>
           <div className="ProjectDescription">
             <p>
-              I was given the opportunity to learn from some amazing designers
-              in Eightfold.AI. I worked on their new mobile app's navigation,
-              updating it to fit the new settings and notifications page that I
-              designed.
+              As a high school junior, I was given the opportunity to learn from
+              some amazing designers at Eightfold.AI. I worked on their new
+              mobile app's navigation, updating it to fit the new settings and
+              notifications page that I designed.
             </p>
 
             <div className="InfoColumn">
@@ -82,14 +82,14 @@ function Eightfold() {
           <hr></hr>
         </div>
         <p>
-          With the addition of settings and notifications in the app, I was
-          given the task of reworking the navigation.
+          My main goal was to rework the navigation to include my newly designed
+          Notifications and Settings pages.
         </p>
         <p>
-          We also had to rethink the prioritization of the navigation.
-          Eightfold's Career Hub app's primary use case is through the
-          recommended further their career within the company, and we needed to
-          get the navigation to reflect that interest.{" "}
+          The bulk of this project was re-prioritizing the navigation. Eightfold's
+          Career Hub app's primary use case is to help employees grow their
+          career within a company by understanding their career goals and
+          recommending an AI-generated career path.{" "}
         </p>
       </div>
       <div className="CaseSection" id="Solution">
