@@ -26,10 +26,10 @@
 
 
 .NavLink.hovered {
-    color: var(--Red-200);
+    color: var(--Black-400);
 }
 .NavLink.hovered .Underline {
-    background-color: var(--Red-200);
+    background-color: var(--Black-400);
 }
 
 .NavLink.pressed {
@@ -58,14 +58,11 @@ svg{
     fill:var(--Brown);
 }
 
-.NavLink.hovered svg {
-    fill: var(--Red-200);
-}
 
 
 .NavLink.hovered svg {
     
-    fill: var(--Red-200); /* Change Arrow color on hover */
+    fill: var(--Black-400); /* Change Arrow color on hover */
 }
 
 .NavLink.pressed svg{

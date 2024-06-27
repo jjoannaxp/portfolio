@@ -494,4 +494,5 @@ ol {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  white-space: nowrap;
 }

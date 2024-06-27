@@ -8,9 +8,15 @@ import { useNavigate } from "react-router-dom";
 function About() {
   const handleButtonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/10Ew9k9THc-U8e789pCuLnDpaSmPO8K65/view?usp=sharing",
+      "https://drive.google.com/file/d/1z6Ljg17jXyY8_OF6loazUasUDTqOoWSG/view?usp=sharing",
       "_blank"
     );
+  };
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+    window.scrollTo(0, 0);
   };
   return (
     <div className="AboutContainer">
@@ -38,9 +44,15 @@ function About() {
 
         <img src={me} className="MeImage"></img>
       </div>
+      <div  className="buttonsSection">
+      <button onClick={handleClick} className="homeButton">
+        See my other works!
+      </button>
       <button onClick={handleButtonClick} className="prototypeButton">
         Check out my Resume! <img src={arrow}></img>
       </button>
+      
+      </div>
     </div>
   );
 }

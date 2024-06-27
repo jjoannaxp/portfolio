@@ -26,7 +26,7 @@ function Header() {
                 <Link to="/" text="Work" isSelected={selectedLink === 'Work'} onClick={() => handleLinkClick('Work')} />
                 <Link to="/About" text="About Me" isSelected={selectedLink === 'About'} onClick={() => handleLinkClick('About')} />
                 <Link
-                    href="https://drive.google.com/file/d/10Ew9k9THc-U8e789pCuLnDpaSmPO8K65/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1z6Ljg17jXyY8_OF6loazUasUDTqOoWSG/view?usp=sharing"
                     text="Resume"
                     isArrow ="true"
                     isSelected={selectedLink === 'Resume'}
