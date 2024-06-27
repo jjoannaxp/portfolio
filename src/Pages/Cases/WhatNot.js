@@ -246,29 +246,8 @@ function WhatNot() {
             </div>
           </div>
           <p>
-            This proved that seniors are the largest TV audience. After
-            confirming the fact taht seniors spend a lot of time in front of the
-            TV, we looked into what type of TV they watched.
-          </p>
-          <div className="Callout">
-            <h3>
-              80% of seniors in the US watch some sort of streaming service and
-              40% <span className="underlined">prefer streaming services</span>{" "}
-              over cable.
-            </h3>
-            <p className="tiny">
-              R.R. Donnelley & Sons Company, "The (Un)expected Report", Oct. 5,
-              2021
-            </p>
-          </div>
-          <p>
-            While livestream shopping doesn't directly correlate with streaming
-            services, it a subset of Modern TV. This statistic showed that
-            seniors are willing to branch out from traditional TV cable.
-          </p>
-          <p>
-            After confirming that seniors did in fact watch streaming services,
-            we looked into their usage of online shopping.
+            After confirming that seniors are the largest TV audience, we looked
+            into their usage of online shopping.
           </p>
           <div className="Callout">
             <h3>
@@ -448,52 +427,16 @@ function WhatNot() {
             <p className="tiny">Our second iteration</p>
           </div>
           <p>
-            However, after asking for feedback from WhatNot and our users, we
-            realized our design had <span className="bold">3 main flaws:</span>
-          </p>
-          <ol>
-            <li>
-              <h3>
-                <em>Our interface was very flat.</em>
-              </h3>
-              <p>
-                Since our main stakeholder group was seniors, having a flat
-                interface that doesn't mimic real physical buttons was
-                backwards.
-              </p>
-            </li>
-            <li>
-              <h3>
-                <em>We didn't have a bid functionality.</em>
-              </h3>
-              <p>
-                This was probably our biggest product flaw. The main purpose of
-                WhatNot is bidding on products, but our remote didn't have a
-                simple way to bid on these products.
-              </p>
-            </li>
-            <li>
-              <h3>
-                <em>We didn't consider the TV interface.</em>
-              </h3>
-              <p>
-                Even if our main design in terms of functionality was within the
-                remote, how the remote would interact with the TV was extremely
-                important. Even if we didn't create a full prototype, a design
-                would help understand the
-              </p>
-            </li>
-          </ol>
-          <p>
-            I want to note that at this point, the project had been over.
-            Everything beyond this point was my work in order to improve the
-            design we had made.
+            However, after asking for feedback from WhatNot and our users, I
+            started the final iteration, with a focus on a more physical UI,
+            adding a bidding functionality, and considering the entire TV
+            ecosystem.
           </p>
 
           <div className="Subheader">
             <h4>New Interface:</h4>
           </div>
-
+          {/* 
           <p>
             I first worked on fixing the interface. I added shadows and color
             blocking to make it feel more "physical". I also reworked the
@@ -502,7 +445,7 @@ function WhatNot() {
             to swipe through streams. I then added in the bid features, being
             able to bid a recommended amount quickly or write in a custom
             amount.
-          </p>
+          </p> */}
           <div className="SideBySideSection">
             <div className="ImageCaption">
               <img src={iteration1} className="sImg"></img>
@@ -516,14 +459,14 @@ function WhatNot() {
           <div className="Subheader">
             <h4>Bid Functionality</h4>
           </div>
-
+          {/* 
           <p>
             I then mocked out the bid functionality. I wanted to include a quick
             bid button since bidding can be a really fast process, while also
             having a custom bid button for those that want to bid a specific
             amount. This way, ease of use was prioritized while still allowing
             for customizability.
-          </p>
+          </p> */}
           <div className="ImageCaption">
             <div className="SideBySideSection">
               <div className="ImageCaption">
@@ -538,12 +481,12 @@ function WhatNot() {
           <div className="Subheader">
             <h4>TV Design</h4>
           </div>
-
+          {/* 
           <p>
             My last big addition was the new TV mockup. I wanted it to have the
             same functionalities as the WhatNot streaming app so as to keep the
             integrity of the app.
-          </p>
+          </p> */}
           <div className="ImageCaption">
             <img src={tv}></img>
             <p className="tiny">TV Design</p>
@@ -561,26 +504,22 @@ function WhatNot() {
           <hr></hr>
         </div>
         <div className="takeaway">
-          <h3>1. Defining the product is vital.</h3>
+          <h3>1. Accessibility is vital.</h3>
           <p>
-            One of our biggest mistakes was the lack of the bid button, which is
-            the main functionality of the WhatNot stream. We were so focused on
-            how we can make the design for our stakeholder group that we forgot
-            to define the user motivation in the first place. A user story
-            before designing is probably the most important part, and since we
-            neglected that, our design showed reflected that flaw in our design
-            process.
+            Ensuring that a product is usable for all users, especially ones
+            that are a large portion of your audience, is vital. Through this
+            project, I've learned to keep accessibility rules in mind in all my
+            designs.
           </p>
         </div>
         <div className="takeaway">
-          <h3>2. Think from all directions.</h3>
+          <h3>2. Consider the entire ecosystem.</h3>
           <p>
-            When we were designing, we were zeroed in on the remote design, and
-            thus we forgot the entire TV interface when designing. Had we
-            designed the TV interface in addition to the remote, we would've
-            seen the major design flaw in not including the bidding button on
-            the remote. Thinking through the entire ecosystem in play and
-            designing every aspect to work together is incredibly helpful.
+            When designing, it's important to think beyond individual components
+            and consider the entire ecosystem. By designing the TV interface
+            along with the remote, we were able to see where our product was
+            lacking and fill those gaps. A holistic approach ensures that all
+            parts of the system work seamlessly together.
           </p>
         </div>
       </div>

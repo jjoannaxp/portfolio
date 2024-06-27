@@ -1,7 +1,8 @@
 .ImageProjectContainer {
   height: 50vh;
   border-radius: 16px;
-  border: 1px solid var(--Black-100);
+  /* border: 1px solid var(--Black-100); */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -132,9 +133,7 @@ iframe {
 }
 
 h3 .bold {
-  padding: 2px 8px 2px 8px;
-  border-radius: 4px;
-  background-color: var(--Red-200);
+  font-family: 'PP Editorial New';
 }
 
 .SideBySideSection {
@@ -149,6 +148,7 @@ h3 .bold {
 .ImageContainer .sideImg {
   height: 100%;
   width: auto;
+  
   object-fit: cover;
 }
 
@@ -184,10 +184,7 @@ h3 .bold {
 ul {
   width: 100%;
 }
-li.bold,
-li .bold {
-  color: var(--Red-700);
-}
+
 
 #statistic1 {
   margin-bottom: 0;
@@ -489,6 +486,10 @@ ol {
 
 }
 
+.ImageCaption .tiny{
+  width:100%;
+  text-align:center;
+}
 .prototypeButton {
   display: flex;
   flex-direction: row;

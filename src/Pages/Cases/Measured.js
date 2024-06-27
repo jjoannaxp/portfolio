@@ -210,7 +210,18 @@ function Measured() {
           </p>
         </div>
         <div className="takeaway">
-          <h3>2. A design system is vital.</h3>
+          <h3>2. Make the hard trade-offs.</h3>
+          <p>
+            One of the biggest challenges I faced was prioritizing what to
+            display on the dashboard to avoid overwhelming the user. This is
+            especially a problem when designing dashboards, and learning how to
+            make those trade-offs and prioritizations based on user feedback is
+            critical in maintaining a clean and understandable interface without
+            excess user burden.
+          </p>
+        </div>
+        <div className="takeaway">
+          <h3>3. A design system is vital.</h3>
           <p>
             For a platform as large as Measured, having a scalable and organized
             design system can make or break the design process. Creating
@@ -218,15 +229,7 @@ function Measured() {
             for me, allowing me to understand the importance of scalability.
           </p>
         </div>
-        <div className="takeaway">
-          <h3>3. Learn your tool well.</h3>
-          <p>
-            While designing is a broad concept that exists beyond a couple
-            tools, this internship taught me that being able to use the tools
-            I'm utilizing to its fullest capacity helps me conceptualize my
-            design skills with greater ease, efficiency, and cleanliness.
-          </p>
-        </div>
+        
       </div>
       <button onClick={handleClick} className="homeButton">
         See my other works!

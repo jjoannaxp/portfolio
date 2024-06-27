@@ -12,7 +12,7 @@ function Work() {
           Hi, I’m <span>Joanna.</span>
         </h1>
         <h4>
-          I’m a <span>digital product designer</span> that loves building and
+          I’m a <span>product designer</span> that loves building and
           crafting experiences to simplify the world and help people form
           connections.
         </h4>
