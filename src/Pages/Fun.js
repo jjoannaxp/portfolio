@@ -34,13 +34,17 @@ function Fun() {
     <div className="AboutContainer">
       <div className="subsection" id="full">
         <div className="header">
-          <h1>Just For Fun</h1>
+        <h1>Just For Fun</h1>
           <h4>My creative endeavors on the side!</h4>
         </div>
       </div>
-      
+
       <div className="FunSection">
-        <h4>MAKING GRAPHICS FOR CLUBS</h4>
+        <div className="SectionHeader">
+          
+        <hr></hr><h4>MAKING GRAPHICS FOR CLUBS</h4>
+          <hr></hr>
+        </div>
 
         <div className="wrapMocks">
           <img src={night} className="graphic"></img>
@@ -49,7 +53,11 @@ function Fun() {
         </div>
       </div>
       <div className="FunSection">
-        <h4>PAINTING AND SKETCHING</h4>
+      <div className="SectionHeader">
+      <hr></hr>
+      <h4>PAINTING AND SKETCHING</h4>
+          <hr></hr>
+        </div>
         <div className="wrapMocks">
           <div className="ImageCaption" id="graphic">
             <img src={still}></img>
@@ -66,7 +74,11 @@ function Fun() {
         </div>
       </div>
       <div className="FunSection">
+        <div className="SectionHeader">
+        <hr></hr>
         <h4>CREATING ANIMATIONS</h4>
+          <hr></hr>
+        </div>
 
         <div className="wrapMocks">
           <a
@@ -88,13 +100,16 @@ function Fun() {
               <p className="tiny">Interface Mock Up</p>
             </div>
           </a>
-          
         </div>
       </div>
 
       <div className="FunSection">
+        
+        <div className="SectionHeader">
+        <hr></hr>
         <h4>BUILDING THINGS</h4>
-
+          <hr></hr>
+        </div>
         <div className="wrapMocks">
           <div className="ImageCaption" id="reg">
             <img src={cam}></img>
@@ -108,7 +123,6 @@ function Fun() {
             <img src={lamp}></img>
             <p className="tiny">Wooden Lamp</p>
           </div>
-          
         </div>
       </div>
       <button onClick={handleClick} className="homeButton">
