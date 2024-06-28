@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import arrow from "./../Assets/Arrow.svg";
-import me from "./../Assets/me.jpg";
+import me from "./../Assets/me.png";
 import { useNavigate } from "react-router-dom";
 
 
