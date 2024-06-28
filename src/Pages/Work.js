@@ -34,11 +34,11 @@ function Work() {
       </div>
 
       <div className="WorkContainer">
-        <div className="SectionHeader">
+        {/* <div className="SectionHeader">
           <hr></hr>
           <h2>Selected Works</h2>
           <hr></hr>
-        </div>
+        </div> */}
         <Project to="/Cases/Tinker" title="Tinker" />
         <Project to="/Cases/Measured" title="Measured" />
         <Project to="/Cases/WhatNot" title="WhatNot" />
