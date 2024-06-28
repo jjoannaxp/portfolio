@@ -32,18 +32,24 @@ function Fun() {
   };
   return (
     <div className="AboutContainer">
-        <div className="subsection"id="full">
-      <div className="header">
-        <h1>Just For Fun</h1>
-        <h4>My creative endeavors of UI/UX!</h4>
+      <div className="subsection" id="full">
+        <div className="header">
+          <h1>Just For Fun</h1>
+          <h4>My creative endeavors on the side!</h4>
+        </div>
+      </div>
+      
+      <div className="FunSection">
+        <h4>MAKING GRAPHICS FOR CLUBS</h4>
 
-      </div>
-      <div className="Subheader">
-      <p>I enjoy...</p>
-      </div>
+        <div className="wrapMocks">
+          <img src={night} className="graphic"></img>
+          <img src={cae} className="graphic"></img>
+          <img src={agt} className="graphic"></img>
+        </div>
       </div>
       <div className="FunSection">
-        <h2>painting and sketching!</h2>
+        <h4>PAINTING AND SKETCHING</h4>
         <div className="wrapMocks">
           <div className="ImageCaption" id="graphic">
             <img src={still}></img>
@@ -57,33 +63,11 @@ function Fun() {
             <img src={frustrations}></img>
             <p className="tiny">Creative Acrylic Painting</p>
           </div>
-          <div className="ImageCaption" id="graphic">
-            <img src={charcoal}></img>
-            <p className="tiny">Charcoal Drawing</p>
-          </div>
-          <div className="ImageCaption" id="graphic">
-            <img src={landscape}></img>
-            <p className="tiny">Oil Landscape</p>
-          </div>
-          <div className="ImageCaption" id="graphic">
-            <img src={digital}></img>
-            <p className="tiny">Creative Digital Painting</p>
-          </div>
         </div>
       </div>
       <div className="FunSection">
-        <h2>making graphics for clubs!</h2>
-        <div className="wrapMocks">
-          <img src={night} className="graphic"></img>
-          <img src={cd} className="graphic"></img>
-          <img src={cae} className="graphic"></img>
-          <img src={agt} className="graphic"></img>
-          <img src={mnm} className="graphic"></img>
-          <img src={blog} className="graphic"></img>
-        </div>
-      </div>
-      <div className="FunSection">
-        <h2>creating animations!</h2>
+        <h4>CREATING ANIMATIONS</h4>
+
         <div className="wrapMocks">
           <a
             href="https://drive.google.com/file/d/12F0KEoVxR1HSdj1Aqg3FhGOy1899bnL7/view?usp=sharing"
@@ -104,26 +88,19 @@ function Fun() {
               <p className="tiny">Interface Mock Up</p>
             </div>
           </a>
-          <a
-            href="https://drive.google.com/file/d/1FIaCw7FUimm9TZroF1buQzZ8-uh25d-W/view?usp=sharing"
-            className="reg"
-          >
-            <div className="ImageCaption">
-              <img src={loop}></img>
-              <p className="tiny">Looping Animation</p>
-            </div>
-          </a>
+          
         </div>
       </div>
-      
+
       <div className="FunSection">
-        <h2>and building things!</h2>
+        <h4>BUILDING THINGS</h4>
+
         <div className="wrapMocks">
-          <div className="ImageCaption" id="long">
+          <div className="ImageCaption" id="reg">
             <img src={cam}></img>
             <p className="tiny">Camera Render</p>
           </div>
-          <div className="ImageCaption" id="long">
+          <div className="ImageCaption" id="reg">
             <img src={bench}></img>
             <p className="tiny">Wooden Bench</p>
           </div>
@@ -131,10 +108,7 @@ function Fun() {
             <img src={lamp}></img>
             <p className="tiny">Wooden Lamp</p>
           </div>
-          <div className="ImageCaption" id="reg">
-            <img src={mushroom}></img>
-            <p className="tiny">3D Printed Lamp</p>
-          </div>
+          
         </div>
       </div>
       <button onClick={handleClick} className="homeButton">
