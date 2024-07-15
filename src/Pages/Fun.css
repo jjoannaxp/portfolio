@@ -23,26 +23,10 @@
     max-width: calc(33.333% - 24px); /* Ensure the images don't exceed their container */
 }
 
-@media (max-width: 832px) {
-    .wrapMocks .graphic, #graphic{
-        flex: 1 1 calc(50% - 24px); /* Adjust for the gap */
-        max-width: calc(50% - 24px); /* Ensure the images don't exceed their container */
-    }
-}
-
-@media (max-width: 576px) {
-    .wrapMocks {
-        flex-direction: column;
-    }
-
-    .wrapMocks .graphic, #graphic {
-        flex: 1 1 100%; /* Take full width in column layout */
-        max-width: 100%;
-    }
-}
 
 .graphic {
     flex: 1;
+    min-width: 250px;
 }
 
 .loop {
@@ -64,10 +48,13 @@
 .wrapMocks .reg, #reg {
     flex: 1 1 calc(33.333% - 24px); /* Adjust for the gap to fit 3 per row */
     max-width: calc(33.333% - 24px); /* Ensure the images don't exceed their container */
+    min-width: 250px;
+
 }
 .wrapMocks .long, #long {
     flex: 1 1 calc(50% - 24px); /* Adjust for the gap to fit 3 per row */
     max-width: calc(50% - 24px); /* Ensure the images don't exceed their container */
+    min-width: 350px;
 }
 a{
     text-decoration:none ;
@@ -77,4 +64,30 @@ a{
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media (max-width: 832px) {
+    .wrapMocks .graphic, #graphic{
+        flex: 1 1 calc(50% - 24px); /* Adjust for the gap */
+        max-width: calc(50% - 24px); /* Ensure the images don't exceed their container */
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapMocks {
+        flex-direction: column;
+    }
+
+    .wrapMocks .graphic, #graphic {
+        flex: 1 1 100%; /* Take full width in column layout */
+        max-width: 100%;
+    }
+    .wrapMocks .long, #long {
+        flex: 1 1 100%; /* Take full width in column layout */
+        max-width: 100%;
+    }
+    .wrapMocks .reg, #reg {
+        flex: 1 1 100%; /* Take full width in column layout */
+        max-width: 100%;
+    }
 }

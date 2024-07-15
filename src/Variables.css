@@ -153,7 +153,7 @@ hr{
 }
 
 button{
-    width:fit-content;
+    width:max-content;
     display: inline-flex;
     padding: 8px 16px;
     justify-content: center;

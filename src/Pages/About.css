@@ -1,26 +1,22 @@
-.AboutText{
+.AboutText {
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
     gap: 24px;
+    max-width: 100%;
+    flex: 3; /* 60% of the container */
 }
 
-.MeImage{
-    width: 40%;
-    border-radius: 16px;
-    border: 1px solid var(--Black-200);
+.MeImage {
+    width: 100%;
 }
 
-@media (max-width: 576px) {
-    .MeImage{
-        width: 100%;
-    }
-    .AboutContainer{
-        width:100%;
-        padding: 0px 32px;
-    }
+#aboutSide .ImageContainer {
+    max-width: 100%;
+    flex: 2; /* 40% of the container */
+    height: fit-content;
 }
 
-.AboutContainer{
+.AboutContainer {
     width: 60%;
     max-width: 1400px;
     display: flex;
@@ -29,7 +25,29 @@
     gap: 80px;
     margin: auto;
     margin-top: 160px;
+}
 
+@media (max-width: 576px) {
+    
+    .AboutContainer{
+        width:100%;
+        padding: 0px 32px;
+    }
+    
+
+}
+@media (max-width:832px){
+    #aboutSide{
+        flex-direction: column-reverse;
+    }
+    .AboutText{
+        width:100%;
+    }
+    #aboutSide .ImageContainer{
+        
+        max-height: 40vh;
+    }
+    
 }
 
 .buttonsSection{
@@ -38,5 +56,5 @@
     gap: 16px;
     width:100%;
     justify-content: center;
-
+    flex-wrap:wrap;
 }

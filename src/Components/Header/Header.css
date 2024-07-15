@@ -2,34 +2,92 @@
 @import url('../Link/Link.css');
 
 
-.Header{
+.Header {
     display: flex;
     width: 100%;
-
     padding: 32px 56px;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    margin:0;
-    background: var(--Cream-Linear, linear-gradient(0deg, rgba(246,242,233, 0.00) 9.5%, #f6f2e9 50.09%));
-    position:fixed;
-    top:0;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(246,242,233, 0) 5%, rgba(246,242,233, 1) 45%);
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top */
 }
-
-.NavLinks{
+.Overlay{
+    display:none;
+}
+.NavLinks {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
     gap: 34px;
 }
-@media (max-width:576px){
-    .NavLinks{
+
+.Hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Hamburger div {
+    width: 24px;
+    height: 3px;
+    background-color: var(--Black-700);
+    border-radius: 3px; 
+}
+
+/* Mobile view */
+@media (max-width: 576px) {
+    .NavLinks {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 70%;
+        background-color: var(--Cream);
+        border-left: var(--Black-100) solid 1px;
         flex-direction: column;
-        gap:8px;
+        align-items: start;
+        gap: 16px;
+        padding: 80px 40px; /* Add padding to account for header height */
+        transform: translateX(100%);
+        transition: transform 0.3s ease-out;
+        z-index: 999; /* Ensure the menu appears above other content */
     }
-    .Header{
-        align-items:start;
+    
+    .NavLinks.open {
+        transform: translateX(0);
+    }
+
+    .Header {
         padding: 32px;
+        justify-content: space-between;
     }
+
+    .Hamburger {
+        display: flex;
+    }
+    .Overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        z-index: 998; /* Ensure the overlay appears below the menu but above the rest of the content */
+    }
+    
+    .Overlay.open {
+        display: block;
+    }
+    
+    body.freeze {
+        overflow: hidden;
+    }
+
 }

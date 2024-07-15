@@ -20,7 +20,7 @@ function About() {
   };
   return (
     <div className="AboutContainer">
-      <div className="SideBySideSection">
+      <div className="SideBySideSection" id="aboutSide">
         <div className="AboutText">
           <h2>Hi! I'm Joanna Poon.</h2>
           <p>
@@ -41,8 +41,10 @@ function About() {
             flea market find, and the next figurine series on my shop list.
           </p>
         </div>
-
+        <div className="ImageContainer">
         <img src={me} className="MeImage"></img>
+        </div>
+       
       </div>
       <div  className="buttonsSection">
       <button onClick={handleClick} className="homeButton">
