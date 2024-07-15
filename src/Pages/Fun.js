@@ -34,20 +34,20 @@ function Fun() {
     <div className="AboutContainer">
       <div className="subsection" id="full">
         <div className="header">
-        <h1>Just For Fun</h1>
+          <h1>Just For Fun</h1>
           <h4>My creative endeavors on the side!</h4>
         </div>
       </div>
 
       <div className="FunSection">
         <div className="SectionHeader">
-          
-        <hr></hr><h4>MAKING GRAPHICS FOR CLUBS</h4>
+          <hr></hr>
+          <h4>MAKING GRAPHICS FOR CLUBS</h4>
           <hr></hr>
         </div>
 
         <div className="wrapMocks">
-        <div className="ImageCaption" id="reg">
+          <div className="ImageCaption" id="reg">
             <img src={night}></img>
           </div>
           <div className="ImageCaption" id="reg">
@@ -56,13 +56,12 @@ function Fun() {
           <div className="ImageCaption" id="reg">
             <img src={agt}></img>
           </div>
-          
         </div>
       </div>
       <div className="FunSection">
-      <div className="SectionHeader">
-      <hr></hr>
-      <h4>PAINTING AND SKETCHING</h4>
+        <div className="SectionHeader">
+          <hr></hr>
+          <h4>PAINTING AND SKETCHING</h4>
           <hr></hr>
         </div>
         <div className="wrapMocks">
@@ -82,8 +81,8 @@ function Fun() {
       </div>
       <div className="FunSection">
         <div className="SectionHeader">
-        <hr></hr>
-        <h4>CREATING ANIMATIONS</h4>
+          <hr></hr>
+          <h4>CREATING ANIMATIONS</h4>
           <hr></hr>
         </div>
 
@@ -111,10 +110,9 @@ function Fun() {
       </div>
 
       <div className="FunSection">
-        
         <div className="SectionHeader">
-        <hr></hr>
-        <h4>BUILDING THINGS</h4>
+          <hr></hr>
+          <h4>BUILDING THINGS</h4>
           <hr></hr>
         </div>
         <div className="wrapMocks">
