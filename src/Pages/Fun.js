@@ -47,9 +47,16 @@ function Fun() {
         </div>
 
         <div className="wrapMocks">
-          <img src={night} className="graphic"></img>
-          <img src={cae} className="graphic"></img>
-          <img src={agt} className="graphic"></img>
+        <div className="ImageCaption" id="reg">
+            <img src={night}></img>
+          </div>
+          <div className="ImageCaption" id="reg">
+            <img src={cae}></img>
+          </div>
+          <div className="ImageCaption" id="reg">
+            <img src={agt}></img>
+          </div>
+          
         </div>
       </div>
       <div className="FunSection">
