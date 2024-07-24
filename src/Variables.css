@@ -189,3 +189,36 @@ button:active {
     border-radius: 16px;
     
 }
+
+@media (max-width: 832px) {
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size:30px;
+        
+    
+    }
+    
+    h3{
+        font-size: 24px;
+    
+    }
+    
+    h4{
+        font-size: 16px;
+        
+    
+    }
+    p{
+        font-size: 14px;
+        
+    
+    }
+
+    
+    .tiny{
+        font-size: 12px;
+      
+    }
+}

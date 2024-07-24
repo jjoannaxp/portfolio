@@ -72,8 +72,9 @@ img{
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    align-self: stretch;
+    width:100%;
 }
+
 
 .ProjectDetails{
     display: flex;
@@ -98,17 +99,7 @@ p{
     color: var(--Black);
 } 
 
-@media (max-width: 1322px) {
-    .circle{
-        display:none;
-    }
 
-    .ProjectDetails{
-        flex-direction: column;
-        gap:8px;
-        align-items: start;
-    }
-}
 
 @media (max-width: 832px) {
     .Project{
@@ -118,12 +109,17 @@ p{
         width:100%;
         max-width: none;
     }
-    .img{
+    img{
         width:100%;
+        height: auto;
+    }
+    .ProjectInformation{
+        flex-direction: row;
     }
     .ProjectInformationContainer{
         align-items: flex-start;
         gap: 24px;
+
     }
     
 }
