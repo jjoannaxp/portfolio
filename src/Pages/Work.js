@@ -48,7 +48,7 @@ function Work() {
           <h2>Want More?</h2>
             <button onClick={handleClick} className="funButton">
               What I do for fun!
-              <img src={arrow} alt="arrow" />
+              <img src={arrow} id="arrow" />
             </button>
         </div>
       </div>

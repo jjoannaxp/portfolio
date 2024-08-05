@@ -126,7 +126,18 @@ function Tinker() {
               I've experienced first-hand the frustration that comes with
               property maintenance.
             </h3>
-            <p>
+            
+            
+          </div>
+          <div className="ImageCaption">
+            <div className="ImageContainer">
+              <img src={problem} className="sideImg"></img>
+            </div>
+            <p className="tiny">A look into the hectic, multi-step process.</p>
+          </div>
+          
+        </div>
+        <p>
               Both of my parents are landlords, and they rely heavily on
               word-of-mouth recommendations and had to call around to find
               reliable contractors. They usually have a multiple contractors
@@ -136,20 +147,12 @@ function Tinker() {
               consuming. This process is highly inefficient, often leading to
               chaos and frustration when urgent repairs are needed.
             </p>
-            <p>
+        <p>
               And I know our parents weren't alone with this problem. My team
               and I ran countless user interviews and found that many{" "}
               <span className="bold">new non-commercial landlords</span> go
               through the same tedious process.
             </p>
-          </div>
-          <div className="ImageCaption">
-            <div className="ImageContainer">
-              <img src={problem} className="sideImg"></img>
-            </div>
-            <p className="tiny">A look into the hectic, multi-step process.</p>
-          </div>
-        </div>
         <div className="Callout">
           <p>PROBLEM STATEMENT</p>
           <h3>
@@ -452,7 +455,7 @@ function Tinker() {
             measurement of status. So instead, I opted to use stages to show
             status.
           </p>
-          <div className="SideBySideSection">
+          <div className="SideBySideSection" id="components">
             <div className="ImageCaption">
               <img src={statusLF} className="sideImg"></img>
               <p>Low Fidelity</p>
@@ -479,9 +482,7 @@ function Tinker() {
           <hr></hr>
         </div>
         <h3>Branding</h3>
-        <div className="ImageContainer" id="designSystem">
-          <img src={designSystem}></img>
-        </div>
+          <img src={designSystem}id="designSystem"></img>
         <p>
           My main goal with the design system is to create a simple yet
           meaningful brand identity. I made sure{" "}
@@ -491,9 +492,7 @@ function Tinker() {
           that the developers can consistently replicate.
         </p>
         <h3>Components</h3>
-        <div className="ImageContainer" id="designSystem">
-          <img src={components}></img>
-        </div>
+          <img src={components} id="designSystem"></img>
         <p>
           Creating a <span className="bold">scalable</span> design system in
           terms of components was also incredibly vital for our development

@@ -51,7 +51,7 @@ function About() {
         See my other works!
       </button>
       <button onClick={handleButtonClick} className="prototypeButton">
-        Check out my Resume! <img src={arrow}></img>
+        Check out my Resume! <img src={arrow} id="arrow"></img>
       </button>
       
       </div>

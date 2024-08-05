@@ -108,8 +108,8 @@ function Project({ to, title}) {
                     <h4>{project.phrase}</h4>
                 </div>
                 <div className = "ProjectDetails">
-                    <p>{project.type}</p>
-                    <div className="circle"></div>
+                    {/* <p>{project.type}</p>
+                    <div className="circle"></div> */}
                     <p>{project.date}</p>
                 </div>
             </div>

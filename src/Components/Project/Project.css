@@ -31,7 +31,7 @@
 }
 
 .ImageContainer{
-    max-width: 45%;
+    max-width: 60%;
     height: 280px;
     border-radius: 16px;
     border: 1px solid var(--Black-100);
@@ -101,7 +101,7 @@ p{
 
 
 
-@media (max-width: 832px) {
+@media (max-width: 1000px) {
     .Project{
         flex-direction: column;
     }
@@ -109,16 +109,14 @@ p{
         width:100%;
         max-width: none;
     }
-    img{
-        width:100%;
-        height: auto;
-    }
+
     .ProjectInformation{
-        flex-direction: row;
+        flex-direction: column;
+        gap:16px;
     }
     .ProjectInformationContainer{
         align-items: flex-start;
-        gap: 24px;
+        gap: 16px;
 
     }
     
@@ -129,4 +127,19 @@ p{
     width: 4px;
     border-radius: 2px;
     background-color: var(--Red-200);
+}
+@media (max-width: 832px) {
+    img{
+        width:100%;
+        max-width: none;
+    }
+}
+@media (max-width: 576px) {
+    .Project {
+        padding: 32px;
+    }
+    .ImageContainer{
+        width:100%;
+        height:auto;
+    }
 }

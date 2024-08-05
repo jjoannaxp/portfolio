@@ -68,13 +68,13 @@ h4 span{
     width:100%;
 }
 
-@media (max-width: 832px) {
+/* @media (max-width: 832px) {
     .Container{
         width:100%;
         padding: 0px 56px;
     }
 
-}
+} */
 
 @media (max-width: 576px) {
     .ExperienceContainer{
@@ -86,3 +86,9 @@ h4 span{
         padding: 0px 32px;
     }
 }
+
+#arrow{
+    max-width: 10px;
+    height:auto;
+}
+
