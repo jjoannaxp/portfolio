@@ -36,7 +36,7 @@ const Header = () => {
                 <Link to="/Fun" text="Just For Fun" isSelected={selectedLink === 'Fun'} onClick={() => handleLinkClick('Fun')} />
                 <Link to="/About" text="About Me" isSelected={selectedLink === 'About'} onClick={() => handleLinkClick('About')} />
                 <Link
-                    href="https://drive.google.com/file/d/1z6Ljg17jXyY8_OF6loazUasUDTqOoWSG/view?usp=sharing"
+                    href="https://drive.google.com/file/d/10-Qo7ySbzCKCzYg5NeeWrWGMpLK5bfZ9/view?usp=sharing"
                     text="Resume"
                     isArrow="true"
                     isSelected={selectedLink === 'Resume'}

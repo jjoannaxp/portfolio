@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 function About() {
   const handleButtonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1z6Ljg17jXyY8_OF6loazUasUDTqOoWSG/view?usp=sharing",
+      "https://drive.google.com/file/d/10-Qo7ySbzCKCzYg5NeeWrWGMpLK5bfZ9/view?usp=sharing",
       "_blank"
     );
   };
