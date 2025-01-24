@@ -500,15 +500,7 @@ function Tinker() {
           was one of my overarching rules when designing.
         </p>
       </div>
-      <div className="CaseSection">
-        <div className="SectionHeader">
-          <p>05.</p>
-          <h2>Pitch Deck</h2>
-          <hr></hr>
-        </div>
-        <h3>Our award winning pitch deck!</h3>
-        <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIvQxyZJCGeXyFHwF3luDuc%2FLava-Decks%3Fpage-id%3D545%253A10574%26node-id%3D545-10575%26viewport%3D535%252C91%252C0.02%26t%3DOu4jYJEMoSq1R6mQ-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D545%253A10575"></iframe>
-      </div>
+    
 
       <div className="CaseSection">
         <div className="SectionHeader">
