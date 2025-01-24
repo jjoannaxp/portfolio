@@ -4,6 +4,7 @@ import measuredImg from "../../Assets/Projects/Measured.png";
 import before from "../../Assets/measured/before.png";
 import view from "../../Assets/measured/view.gif";
 import drill from "../../Assets/measured/drill.gif";
+import custom from "../../Assets/measured/customize-portfolio.gif";
 import side from "../../Assets/measured/side.gif";
 import add from "../../Assets/measured/add.gif";
 import { useNavigate } from "react-router-dom";
@@ -21,7 +22,7 @@ function Measured() {
   };
   const handleButtonClick = () => {
     window.open(
-      "https://www.figma.com/proto/vSBodrwPUCz7Up5r28wARs/Measured-Work?page-id=1%3A3488&node-id=1-6827&viewport=2157%2C841%2C0.27&t=uWaDWy1H5CarO3et-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A6827",
+      "https://www.figma.com/proto/vSBodrwPUCz7Up5r28wARs/Measured-Work?page-id=4%3A33943&node-id=4-39209&viewport=1608%2C466%2C0.48&t=hpQkpuscnqhIz4Ig-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A39209",
       "_blank"
     );
   };
@@ -32,7 +33,7 @@ function Measured() {
           <img src={measuredImg} />
         </div>
         <div className="TitleSection">
-          <h1>Measured</h1>
+          <h1>Measured Dashboard</h1>
           <p className="bold">
             Measured is a data platform that optimizes media spend for
             businesses.
@@ -169,31 +170,25 @@ function Measured() {
               </p>
             </div>
           </div>
+          <div className="feature">
+            <img src={custom} className="gifDesktop" />
+            <div className="stepDesktop">
+              <h3>05. Customize Channels in Portfolio</h3>
+              <p>
+                Users can customize which channels feed data into the overall portfolio metrics.{" "}
+              </p>
+            </div>
+          </div>
         </div>
         <button onClick={handleButtonClick} className="prototypeButton">
           Play With the Final Prototype!
           <img src={arrow}></img>
         </button>
       </div>
-      {/* <div className="CaseSection">
-        <div className="SectionHeader">
-          <p>03.</p>
-          <h2>Process</h2>
-          <hr></hr>
-        </div>
-        <p>
-          Throughout my internship, I was able to work along my fellow designer
-          to create the dashboard. 
-          
-          - components I worked on
-          - icons created
-          - iterations on different tiles -- the pop ups
-
-        </p>
-      </div> */}
+      
       <div className="CaseSection">
         <div className="SectionHeader">
-          <p>04.</p>
+          <p>03.</p>
           <h2>Takeaways</h2>
           <hr></hr>
         </div>
@@ -229,7 +224,6 @@ function Measured() {
             for me, allowing me to understand the importance of scalability.
           </p>
         </div>
-        
       </div>
       <button onClick={handleClick} className="homeButton">
         See my other works!
