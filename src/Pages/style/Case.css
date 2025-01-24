@@ -511,3 +511,55 @@ ol {
   gap: 8px;
   white-space: nowrap;
 }
+
+.blurred {
+  filter: blur(10px);
+  pointer-events: none;
+}
+
+.iframe-container {
+  position: relative; /* Ensures child absolute elements are positioned relative to this container */
+  width: 100%;
+  height: auto;
+}
+
+
+.password-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background: radial-gradient(circle, rgba(246, 242, 233, 0.8) 0%, rgba(246, 242, 233, 0.6) 50%, rgba(246, 242, 233, 0) 100%);
+
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  z-index: 1000; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-overlay input {
+  padding: 8px;
+  font-family: "Trispace";
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--Black-400);
+}
+
+.password-overlay button {
+  cursor: pointer;
+  height: fit-content;
+}
+
+.password-form{
+  display:flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.password-overlay form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

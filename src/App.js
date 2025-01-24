@@ -9,6 +9,8 @@ import WhatNot from './Pages/Cases/WhatNot';
 import Measured from './Pages/Cases/Measured';
 import Eightfold from './Pages/Cases/Eightfold';
 import Tinker from './Pages/Cases/Tinker';
+import Kat from './Pages/Cases/Kat';
+
 
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -44,6 +46,7 @@ function App() {
           <Route path="/" element={<Work />} />
           <Route path="/About" element={<About />} />
           <Route path="/Fun" element={<Fun />} />
+          <Route path="/Cases/Kat" element={<Kat />} />
           <Route path="/Cases/WhatNot" element={<WhatNot />} />
           <Route path="/Cases/Measured" element={<Measured />} />
           <Route path="/Cases/Eightfold" element={<Eightfold />} />

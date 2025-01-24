@@ -27,7 +27,7 @@ function Work() {
           <h3>previously:</h3>
           <div className="ExperienceButtons">
             <Link to="/Cases/WhatNot" text="WhatNot" isButton={true} />
-            <Link to="/Cases/Measured" text="Measured" isButton={true} />
+            <Link to="/Cases/Kat" text="Measured" isButton={true} />
             <Link to="/Cases/Eightfold" text="Eightfold" isButton={true} />
           </div>
         </div>
@@ -39,6 +39,7 @@ function Work() {
           <h2>Selected Works</h2>
           <hr></hr>
         </div> */}
+        <Project to="/Cases/Kat" title="Kat" />
         <Project to="/Cases/Tinker" title="Tinker" />
         <Project to="/Cases/Measured" title="Measured" />
         <Project to="/Cases/WhatNot" title="WhatNot" />

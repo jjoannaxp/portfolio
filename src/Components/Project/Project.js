@@ -6,6 +6,8 @@ import measuredImg from '../../Assets/Projects/Measured.png';
 import whatnotImg from '../../Assets/Projects/WhatNot.png';
 import eightfoldImg from '../../Assets/Projects/Eightfold.png';
 import splitImg from '../../Assets/Projects/Split.png';
+import katImg from '../../Assets/Projects/Kat.png';
+
 
 const projects = [
     {
@@ -17,12 +19,12 @@ const projects = [
         date: "Spring 2024"
     },
     {
-        title: "Measured",
-        role: "Product Design Intern @",
+        title: "Measured Dashboard",
+        role: "Product Design Intern",
         src: measuredImg,
-        phrase: "Optimize media spend for businesses through data.",
+        phrase: "Visualize current ad spend.",
         type: "Website Design",
-        date: "Summer 2023 & 2024"
+        date: "Summer 2023"
     },{
         title: "WhatNot",
         role: "Product Design Strategist @",
@@ -44,6 +46,13 @@ const projects = [
         phrase: "The app that makes dividing expenses easy.",
         type: "App Design",
         date: "Fall 2023"
+    },{
+        title: "Measured Testing Platform",
+        role: "Product Design Intern",
+        src: katImg,
+        phrase: "Test marketing strategies to optimize ad spend.",
+        type: "Website Design",
+        date: "Summer 2024"
     }
 ]
 
@@ -92,6 +101,8 @@ function Project({ to, title}) {
          project = projects[3];
     }else if(title==="Split"){
         project = projects[4];
+    }else if(title==="Kat"){
+        project = projects[5];
     }
 
     return  (
