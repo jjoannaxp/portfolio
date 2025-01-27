@@ -185,37 +185,10 @@ function Measured() {
           <img src={arrow}></img>
         </button>
       </div>
+      
       <div className="CaseSection">
         <div className="SectionHeader">
           <p>03.</p>
-          <h2>Process</h2>
-          <hr></hr>
-        </div>
-        <p>
-          Throughout my internship, I was able to work along my fellow designer
-          to create the dashboard. - How to organize information - components I
-          worked on - icons created - iterations on different tiles -- the pop
-          ups
-        </p>
-        <div className="subsection">
-          <div className="Subheader">
-            <p>01.</p>
-            <h3>Data Organization</h3>
-            <hr></hr>
-          </div>
-          <p>The biggest change we made in terms of data organization was in the context menus.</p>
-        </div>
-        <div className="subsection">
-          <div className="Subheader">
-            <p>02.</p>
-            <h3>Data Visualization</h3>
-            <hr></hr>
-          </div>
-        </div>
-      </div>
-      <div className="CaseSection">
-        <div className="SectionHeader">
-          <p>04.</p>
           <h2>Takeaways</h2>
           <hr></hr>
         </div>
